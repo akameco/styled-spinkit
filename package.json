@@ -1,0 +1,104 @@
+{
+  "name": "styled-spinkit",
+  "version": "0.0.1",
+  "description": "Spinner Loading components",
+  "license": "MIT",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "main": "lib/main.js",
+  "keywords": [
+    "react",
+    "styled-components",
+    "components",
+    "flow",
+    "flowtype",
+    "Spinner",
+    "Loading",
+    "components"
+  ],
+  "scripts": {
+    "postinstall": "npm run flow-typed",
+    "flow-typed": "rm -fr flow-typed/npm && flow-typed install --overwrite || true",
+    "prebuild": "rimraf lib/*",
+    "build:lib": "babel src/ -d lib/",
+    "build:flow": "flow-copy-source -v -i '{**/test/*.js,**/*.test.js}' src lib",
+    "build": "npm run build:lib && npm run build:flow",
+    "prettier": "prettier --write --single-quote --semi=false --trailing-comma es5 \"src/**/*.js\"",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook",
+    "lint:css": "stylelint \"./src/**/*.js\" || true",
+    "lint:js": "eslint src",
+    "lint": "npm run lint:css && npm run lint:js",
+    "test": "jest",
+    "prepublish": "npm run precommit && npm run build",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier",
+      "git add"
+    ]
+  },
+  "files": [
+    "flow-typed",
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "round-to": "^2.0.0",
+    "styled-components": "2.0.0-17"
+  },
+  "devDependencies": {
+    "@kadira/react-storybook-addon-info": "^3.4.0",
+    "@kadira/storybook": "^2.35.3",
+    "@kadira/storybook-addon-knobs": "^1.7.1",
+    "@kadira/storybook-addon-options": "^1.0.2",
+    "@kadira/storybook-deployer": "^1.2.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^20.0.0",
+    "babel-plugin-flow-react-proptypes": "^2.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-precure": "^0.3.0",
+    "flow-bin": "^0.45.0",
+    "flow-copy-source": "^1.1.0",
+    "flow-typed": "^2.1.2",
+    "husky": "^0.13.3",
+    "jest": "^20.0.0",
+    "lint-staged": "^3.4.1",
+    "prettier": "^1.3.1",
+    "react-dom": "^15.5.4",
+    "react-storybook-addon-backgrounds": "^0.0.7",
+    "rimraf": "^2.6.1",
+    "storyshots": "^3.2.2",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-processor-styled-components": "^0.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=15.5"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>[/\\\\](build|node_modules)[/\\\\]"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ]
+  }
+}
