@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
 import { text, number } from '@kadira/storybook-addon-knobs'
-import Components from '../src'
+import * as Components from '../src'
 
 const removePrefix = (name: string) => name.replace('__styled-spinkit__', '')
 
