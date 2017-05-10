@@ -8,7 +8,7 @@
     "email": "akameco.t@gmail.com",
     "url": "akameco.github.io"
   },
-  "main": "lib/main.js",
+  "main": "lib/index.js",
   "keywords": [
     "react",
     "styled-components",
