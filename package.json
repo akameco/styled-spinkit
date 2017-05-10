@@ -52,7 +52,7 @@
   "dependencies": {
     "prop-types": "^15.5.8",
     "round-to": "^2.0.0",
-    "styled-components": "2.0.0-17"
+    "styled-components": "2.0.0-15"
   },
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.4.0",
