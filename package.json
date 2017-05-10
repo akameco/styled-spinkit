@@ -29,6 +29,7 @@
     "prettier": "prettier --write --single-quote --semi=false --trailing-comma es5 \"src/**/*.js\"",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
     "lint:css": "stylelint \"./src/**/*.js\" || true",
     "lint:js": "eslint src",
     "lint": "npm run lint:css && npm run lint:js",
