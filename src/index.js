@@ -11,7 +11,7 @@ import WaveLoading from './WaveLoading'
 import DoubleDounceLoading from './DoubleDounceLoading'
 import RotaingPlaneLoading from './RotaingPlaneLoading'
 
-export default {
+export {
   ChasingDots,
   Circle,
   CubeGrid,
