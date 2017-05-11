@@ -10,6 +10,8 @@
     "url": "akameco.github.io"
   },
   "main": "lib/index.js",
+  "jsnext:main": "dist/styled-spinkit.es.js",
+  "module": "dist/styled-spinkit.es.js",
   "keywords": [
     "react",
     "styled-components",
@@ -22,10 +24,12 @@
   ],
   "scripts": {
     "flow-typed": "rm -fr flow-typed/npm && flow-typed install --overwrite || true",
-    "prebuild": "rimraf lib/*",
+    "prebuild:lib": "rimraf lib/*",
+    "build": "npm run build:lib && npm run build:dist && npm run build:flow",
     "build:lib": "babel src/ -d lib/",
+    "prebuild:dist": "rimraf dist/*",
+    "build:dist": "rollup -c",
     "build:flow": "flow-copy-source -v -i '{**/test/*.js,**/*.test.js}' src lib",
-    "build": "npm run build:lib && npm run build:flow",
     "prettier": "prettier --write --single-quote --semi=false --trailing-comma es5 \"src/**/*.js\"",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
@@ -46,6 +50,7 @@
   "files": [
     "flow-typed",
     "lib",
+    "dist",
     "src"
   ],
   "dependencies": {
@@ -62,6 +67,7 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-jest": "^20.0.0",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-flow-react-proptypes": "^2.2.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
@@ -79,13 +85,18 @@
     "react-dom": "^15.5.4",
     "react-storybook-addon-backgrounds": "^0.0.7",
     "rimraf": "^2.6.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-flow": "^1.1.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "storyshots": "^3.2.2",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "stylelint-processor-styled-components": "^0.1.0"
   },
   "peerDependencies": {
-    "react": ">=15.5"
+    "react": "^15.0.0"
   },
   "jest": {
     "collectCoverageFrom": [

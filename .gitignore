@@ -19,3 +19,4 @@ yarn-error.log*
 /flow-typed
 /storybook-static
 /lib
+/dist
