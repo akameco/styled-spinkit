@@ -21,7 +21,6 @@
     "components"
   ],
   "scripts": {
-    "postinstall": "npm run flow-typed",
     "flow-typed": "rm -fr flow-typed/npm && flow-typed install --overwrite || true",
     "prebuild": "rimraf lib/*",
     "build:lib": "babel src/ -d lib/",
