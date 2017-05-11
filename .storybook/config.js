@@ -1,11 +1,11 @@
 import { configure, setAddon, addDecorator } from '@kadira/storybook'
 import infoAddon from '@kadira/react-storybook-addon-info'
-import { setOptions } from '@kadira/storybook-addon-options'
 import { withKnobs } from '@kadira/storybook-addon-knobs'
 import backgrounds from 'react-storybook-addon-backgrounds'
+// import { setOptions } from '@kadira/storybook-addon-options'
 
 setAddon(infoAddon)
-setOptions({ downPanelInRight: true })
+// setOptions({ downPanelInRight: true })
 
 addDecorator(
   backgrounds([

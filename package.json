@@ -52,8 +52,7 @@
   "dependencies": {
     "prop-types": "^15.5.9",
     "round-to": "^2.0.0",
-    "styled-components": "2.0.0-17",
-    "stylis": "2.0.4"
+    "styled-components": "2.0.0-17"
   },
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.4.0",
