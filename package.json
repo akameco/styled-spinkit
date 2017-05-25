@@ -75,7 +75,7 @@
     "babel-preset-env": "^1.5.1",
     "babel-preset-react": "^6.24.1",
     "eslint": "^3.19.0",
-    "eslint-config-precure": "^0.4.0",
+    "eslint-config-precure": "^0.5.0",
     "flow-bin": "^0.46.0",
     "flow-copy-source": "^1.1.0",
     "flow-typed": "^2.1.2",
