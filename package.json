@@ -55,7 +55,8 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10",
-    "round-to": "^2.0.0"
+    "round-to": "^2.0.0",
+    "styled-components": "^2.0.0"
   },
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.4.0",
@@ -68,6 +69,7 @@
     "babel-jest": "^20.0.3",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-flow-react-proptypes": "^2.2.1",
+    "babel-plugin-styled-components": "^1.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.5.1",
@@ -95,8 +97,8 @@
     "stylelint-processor-styled-components": "^0.1.0"
   },
   "peerDependencies": {
-    "styled-components": "^2.0.0",
-    "react": "^15.0.0"
+    "react": "^15.0.0",
+    "styled-components": "^2.0.0"
   },
   "jest": {
     "collectCoverageFrom": [
