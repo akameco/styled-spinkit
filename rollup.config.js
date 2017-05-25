@@ -23,7 +23,7 @@ const plugins = [
 
 export default {
   entry: 'src/index.js',
-  external: ['react'],
+  external: ['react', 'styled-components'],
   exports: 'named',
   targets,
   plugins,
