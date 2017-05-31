@@ -25,5 +25,3 @@ export const animationDelay = (n: number) => css`
 export const propDelay = ({ delay }: { delay: number }) => animationDelay(delay)
 
 export const getRange = (n: number) => [...Array(n).keys()]
-
-export const prefix = '__styled-spinkit__'

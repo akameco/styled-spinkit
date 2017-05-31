@@ -1,35 +1,7 @@
 // @flow
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
 import roundTo from 'round-to'
-import { prefix, size, propSize, propMargin, propBgColor } from '../util'
-
-const scale = keyframes`
-  0%,
-  70%,
-  100% {
-    transform: scale3d(1, 1, 1);
-  }
-
-  35% {
-    transform: scale3d(0, 0, 1);
-  }
-`
-
-const Child = styled.div`
-  ${size('33.33%')}
-  float: left;
-  animation: ${scale} 1.3s infinite ease-in-out ${p => p.delay}s;
-`
-
-const StyledCubeGrid = styled.div`
-  ${propSize}
-  ${propMargin}
-
-  > ${Child} {
-    ${propBgColor}
-  }
-`
+import { Child, StyledCubeGrid } from './styles'
 
 type Props = {
   size: number,
@@ -44,7 +16,7 @@ class CubeGrid extends React.PureComponent<DefaultProps, Props, void> {
     color: '#333',
   }
 
-  static displayName = `${prefix}CubeGrid`
+  static displayName = `__styled-spinkit__CubeGrid`
 
   render() {
     const range = 0.4
