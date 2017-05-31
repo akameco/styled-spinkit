@@ -1,4 +1,4 @@
-# styled-spinkit
+# styled-spinkit [![Build Status](https://travis-ci.org/akameco/styled-spinkit.svg?branch=master)](https://travis-ci.org/akameco/styled-spinkit)
 
 > Simple animation loading components with [styled-components](https://github.com/styled-components/styled-components)
 
