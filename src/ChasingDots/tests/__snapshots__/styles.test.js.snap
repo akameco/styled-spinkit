@@ -44,6 +44,7 @@ exports[`render without props 1`] = `
   height: 40px;
   margin: 40px auto;
   position: relative;
+  -webkit-text-align: center;
   text-align: center;
   -webkit-animation: cZxgpV 2s infinite linear;
   animation: cZxgpV 2s infinite linear;

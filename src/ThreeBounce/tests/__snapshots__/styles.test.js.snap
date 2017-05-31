@@ -17,6 +17,7 @@ exports[`render without props 1`] = `
 .heXqeg {
   width: 40px;
   margin: 40px auto;
+  -webkit-text-align: center;
   text-align: center;
   border-radius: 100%;
 }

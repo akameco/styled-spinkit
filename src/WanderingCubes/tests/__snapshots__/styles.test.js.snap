@@ -5,6 +5,7 @@ exports[`render 1`] = `
   margin: 32px auto;
   width: 40px;
   height: 40px;
+  -webkit-text-align: center;
   text-align: center;
   font-size: 10px;
   position: relative;
