@@ -13,7 +13,13 @@ Inspired by [SpinKit](https://github.com/tobiasahlin/SpinKit).
 ## Install
 
 ```
-$ yarn add styled-components styled-spinkit
+$ yarn add styled-spinkit
+```
+
+or
+
+```
+$ npm install --save styled-spinkit
 ```
 
 ## API
