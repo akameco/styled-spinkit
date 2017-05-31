@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render without props 1`] = `
+.hLIIcl {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  margin: 40px auto;
+  -webkit-animation: kxzfpx s infinite ease-in-out;
+  animation: kxzfpx s infinite ease-in-out;
+}
+
+<div
+  className="sc-bdVaJa hLIIcl"
+  color="#333"
+  size={40}
+/>
+`;

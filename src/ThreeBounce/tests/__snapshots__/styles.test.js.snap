@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Child 1`] = `
+.bUoiSj {
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ctIBbK 1.4s ease-in-out s infinite both;
+  animation: ctIBbK 1.4s ease-in-out s infinite both;
+}
+
+<div
+  className="sc-bdVaJa bUoiSj"
+/>
+`;
+
+exports[`render without props 1`] = `
+.heXqeg {
+  width: 40px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.heXqeg > .sc-bdVaJa {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+}
+
+<div
+  className="sc-bwzfXH heXqeg"
+  color="#333"
+  size={40}
+/>
+`;

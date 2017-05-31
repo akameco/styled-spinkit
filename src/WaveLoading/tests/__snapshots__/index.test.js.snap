@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render without props 1`] = `
+<styled.div
+  color="#333"
+  size={40}
+  speed={1.2}
+>
+  <styled.div
+    delay={-1.2}
+  />
+  <styled.div
+    delay={-1.1}
+  />
+  <styled.div
+    delay={-1}
+  />
+  <styled.div
+    delay={-0.9}
+  />
+  <styled.div
+    delay={-0.8}
+  />
+</styled.div>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Child 1`] = `
+.USRcJ {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1) rotateZ(deg);
+  -ms-transform: scale(1.1) rotateZ(deg);
+  transform: scale(1.1) rotateZ(deg);
+}
+
+.USRcJ:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: jiwbnC s infinite linear both s;
+  animation: jiwbnC s infinite linear both s;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+<div
+  className="sc-bdVaJa USRcJ"
+/>
+`;
+
+exports[`render Child second=true 1`] = `
+.USRcJ {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1) rotateZ(deg);
+  -ms-transform: scale(1.1) rotateZ(deg);
+  transform: scale(1.1) rotateZ(deg);
+}
+
+.USRcJ:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: jiwbnC s infinite linear both s;
+  animation: jiwbnC s infinite linear both s;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+<div
+  className="sc-bdVaJa USRcJ"
+/>
+`;
+
+exports[`render without props 1`] = `
+.bRAoKj {
+  width: 40px;
+  height: 40px;
+  margin: 40px auto;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.bRAoKj > .sc-bdVaJa:before {
+  background-color: #333;
+}
+
+<div
+  className="sc-bwzfXH bRAoKj"
+  color="#333"
+  size={40}
+/>
+`;

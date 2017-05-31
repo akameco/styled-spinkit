@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render 1`] = `
+.kBbuZE {
+  margin: 32px auto;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+}
+
+.kBbuZE > .sc-bdVaJa {
+  background-color: #333;
+  -webkit-animation-name: dXBxGG;
+  animation-name: dXBxGG;
+  -webkit-animation-duration: s;
+  animation-duration: s;
+}
+
+<div
+  className="sc-bwzfXH kBbuZE"
+  color="#333"
+  size={40}
+/>
+`;
+
+exports[`render Child 1`] = `
+.hYZqmE {
+  width: undefinedpx;
+  height: undefinedpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation-delay: s;
+  animation-delay: s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+<div
+  className="sc-bdVaJa hYZqmE"
+/>
+`;

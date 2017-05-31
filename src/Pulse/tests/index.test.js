@@ -1,0 +1,11 @@
+// @flow
+import React from 'react'
+import { shallow } from 'enzyme'
+import toJson from 'enzyme-to-json'
+import 'jest-styled-components'
+import Comp from '../'
+
+test('render without props', () => {
+  const wrapper = shallow(<Comp />)
+  expect(toJson(wrapper)).toMatchSnapshot()
+})
