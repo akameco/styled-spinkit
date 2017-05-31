@@ -26,7 +26,7 @@
     "flow-typed": "rm -fr flow-typed/npm && flow-typed install --overwrite || true",
     "prebuild:lib": "rimraf lib/*",
     "build": "npm run build:lib && npm run build:dist && npm run build:flow",
-    "build:lib": "babel src/ -d lib/",
+    "build:lib": "babel src/ -d lib/ --ignore '*.test.js'",
     "prebuild:dist": "rimraf dist/*",
     "build:dist": "rollup -c",
     "build:flow": "flow-copy-source -v -i '{**/tests/*.js,**/*.test.js}' src lib",
