@@ -24,6 +24,7 @@ const plugins = [
         },
       ],
     ],
+    ignore: ['*.test.js']
   }),
 ]
 

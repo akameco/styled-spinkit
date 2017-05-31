@@ -10,5 +10,8 @@
     ["styled-components", {
       "displayName": false
     }]
+  ],
+  "ignore": [
+    "*.test.js"
   ]
 }

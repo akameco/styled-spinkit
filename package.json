@@ -29,7 +29,7 @@
     "build:lib": "babel src/ -d lib/",
     "prebuild:dist": "rimraf dist/*",
     "build:dist": "rollup -c",
-    "build:flow": "flow-copy-source -v -i '{**/test/*.js,**/*.test.js}' src lib",
+    "build:flow": "flow-copy-source -v -i '{**/tests/*.js,**/*.test.js}' src lib",
     "prettier": "prettier --write --single-quote --semi=false --trailing-comma es5 'src/**/*.js'",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
