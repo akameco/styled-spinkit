@@ -74,15 +74,15 @@ exports[`Storyshots ChangeDots render 1`] = `
     <div>
       <div>
         <div
-          className="sc-bwzfXH etbYYD"
+          className="sc-bwzfXH jaxMaR"
           color="#333"
           size={40}
         >
           <div
-            className="sc-bdVaJa jkAaqC"
+            className="sc-bdVaJa gMGsdN"
           />
           <div
-            className="sc-bdVaJa hpRgLs"
+            className="sc-bdVaJa bkmyJo"
           />
         </div>
       </div>
@@ -377,15 +377,15 @@ exports[`Storyshots ChangeDots render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-bwzfXH dDjLJV"
+          className="sc-bwzfXH krNuTg"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-bdVaJa jkAaqC"
+            className="sc-bdVaJa gMGsdN"
           />
           <div
-            className="sc-bdVaJa hpRgLs"
+            className="sc-bdVaJa bkmyJo"
           />
         </div>
       </div>
@@ -708,56 +708,56 @@ exports[`Storyshots Circle render 1`] = `
     <div>
       <div>
         <div
-          className="sc-gzVnrw gCyluX"
+          className="sc-gzVnrw dYAQVn"
           color="#333"
           size={40}
         >
           <div
-            className="sc-bZQynM eNXtDb"
+            className="sc-bZQynM zCmdB"
             transform={30}
           />
           <div
-            className="sc-bZQynM fdPwhB"
+            className="sc-bZQynM jhsJvP"
             transform={60}
           />
           <div
-            className="sc-bZQynM hEFjFQ"
+            className="sc-bZQynM dinaQU"
             transform={90}
           />
           <div
-            className="sc-bZQynM hwHAqt"
+            className="sc-bZQynM DhsEc"
             transform={120}
           />
           <div
-            className="sc-bZQynM cYrgDD"
+            className="sc-bZQynM hMdibx"
             transform={150}
           />
           <div
-            className="sc-bZQynM djndJK"
+            className="sc-bZQynM iHjhIq"
             transform={180}
           />
           <div
-            className="sc-bZQynM jpwGNg"
+            className="sc-bZQynM cgnoXc"
             transform={210}
           />
           <div
-            className="sc-bZQynM iDujPl"
+            className="sc-bZQynM ewxxBL"
             transform={240}
           />
           <div
-            className="sc-bZQynM eqHXeW"
+            className="sc-bZQynM eEVBcc"
             transform={270}
           />
           <div
-            className="sc-bZQynM ddDYLq"
+            className="sc-bZQynM hxiJxD"
             transform={300}
           />
           <div
-            className="sc-bZQynM dSEDVT"
+            className="sc-bZQynM bPRpSh"
             transform={330}
           />
           <div
-            className="sc-bZQynM dEWoIv"
+            className="sc-bZQynM gpHmON"
             transform={360}
           />
         </div>
@@ -1024,56 +1024,56 @@ exports[`Storyshots Circle render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-gzVnrw gdqQUq"
+          className="sc-gzVnrw bGqqwE"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-bZQynM eNXtDb"
+            className="sc-bZQynM zCmdB"
             transform={30}
           />
           <div
-            className="sc-bZQynM fdPwhB"
+            className="sc-bZQynM jhsJvP"
             transform={60}
           />
           <div
-            className="sc-bZQynM hEFjFQ"
+            className="sc-bZQynM dinaQU"
             transform={90}
           />
           <div
-            className="sc-bZQynM hwHAqt"
+            className="sc-bZQynM DhsEc"
             transform={120}
           />
           <div
-            className="sc-bZQynM cYrgDD"
+            className="sc-bZQynM hMdibx"
             transform={150}
           />
           <div
-            className="sc-bZQynM djndJK"
+            className="sc-bZQynM iHjhIq"
             transform={180}
           />
           <div
-            className="sc-bZQynM jpwGNg"
+            className="sc-bZQynM cgnoXc"
             transform={210}
           />
           <div
-            className="sc-bZQynM iDujPl"
+            className="sc-bZQynM ewxxBL"
             transform={240}
           />
           <div
-            className="sc-bZQynM eqHXeW"
+            className="sc-bZQynM eEVBcc"
             transform={270}
           />
           <div
-            className="sc-bZQynM ddDYLq"
+            className="sc-bZQynM hxiJxD"
             transform={300}
           />
           <div
-            className="sc-bZQynM dSEDVT"
+            className="sc-bZQynM bPRpSh"
             transform={330}
           />
           <div
-            className="sc-bZQynM dEWoIv"
+            className="sc-bZQynM gpHmON"
             transform={360}
           />
         </div>
@@ -1397,36 +1397,36 @@ exports[`Storyshots CubeGrid render 1`] = `
     <div>
       <div>
         <div
-          className="sc-VigVT jwOvYe"
+          className="sc-VigVT ckOjuH"
           color="#333"
           size={40}
         >
           <div
-            className="sc-gqjmRU dPUhMO"
+            className="sc-gqjmRU dmnBkr"
           />
           <div
-            className="sc-gqjmRU hKHHgB"
+            className="sc-gqjmRU dgUBXO"
           />
           <div
-            className="sc-gqjmRU lhohzi"
+            className="sc-gqjmRU bPUdJZ"
           />
           <div
-            className="sc-gqjmRU cXVzO"
+            className="sc-gqjmRU bIdLsJ"
           />
           <div
-            className="sc-gqjmRU dPUhMO"
+            className="sc-gqjmRU dmnBkr"
           />
           <div
-            className="sc-gqjmRU hKHHgB"
+            className="sc-gqjmRU dgUBXO"
           />
           <div
-            className="sc-gqjmRU dACUjA"
+            className="sc-gqjmRU kEbXkR"
           />
           <div
-            className="sc-gqjmRU cXVzO"
+            className="sc-gqjmRU bIdLsJ"
           />
           <div
-            className="sc-gqjmRU dPUhMO"
+            className="sc-gqjmRU dmnBkr"
           />
         </div>
       </div>
@@ -1692,36 +1692,36 @@ exports[`Storyshots CubeGrid render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-VigVT fGZsxD"
+          className="sc-VigVT bqAYRf"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-gqjmRU dPUhMO"
+            className="sc-gqjmRU dmnBkr"
           />
           <div
-            className="sc-gqjmRU hKHHgB"
+            className="sc-gqjmRU dgUBXO"
           />
           <div
-            className="sc-gqjmRU lhohzi"
+            className="sc-gqjmRU bPUdJZ"
           />
           <div
-            className="sc-gqjmRU cXVzO"
+            className="sc-gqjmRU bIdLsJ"
           />
           <div
-            className="sc-gqjmRU dPUhMO"
+            className="sc-gqjmRU dmnBkr"
           />
           <div
-            className="sc-gqjmRU hKHHgB"
+            className="sc-gqjmRU dgUBXO"
           />
           <div
-            className="sc-gqjmRU dACUjA"
+            className="sc-gqjmRU kEbXkR"
           />
           <div
-            className="sc-gqjmRU cXVzO"
+            className="sc-gqjmRU bIdLsJ"
           />
           <div
-            className="sc-gqjmRU dPUhMO"
+            className="sc-gqjmRU dmnBkr"
           />
         </div>
       </div>
@@ -2044,15 +2044,15 @@ exports[`Storyshots DoubleBounce render 1`] = `
     <div>
       <div>
         <div
-          className="sc-kAzzGY pqRHc"
+          className="sc-kAzzGY dAwmgi"
           color="#333"
           size={40}
         >
           <div
-            className="sc-cSHVUG UjuUm"
+            className="sc-cSHVUG iVUGpI"
           />
           <div
-            className="sc-cSHVUG bZsjXr"
+            className="sc-cSHVUG dSdCWH"
           />
         </div>
       </div>
@@ -2318,15 +2318,15 @@ exports[`Storyshots DoubleBounce render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-kAzzGY deaDZd"
+          className="sc-kAzzGY kzTJeA"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-cSHVUG UjuUm"
+            className="sc-cSHVUG iVUGpI"
           />
           <div
-            className="sc-cSHVUG bZsjXr"
+            className="sc-cSHVUG dSdCWH"
           />
         </div>
       </div>
@@ -2649,24 +2649,24 @@ exports[`Storyshots FoldingCube render 1`] = `
     <div>
       <div>
         <div
-          className="sc-dnqmqq bMXioc"
+          className="sc-dnqmqq fUDpZJ"
           color="#333"
           size={40}
         >
           <div
-            className="sc-htoDjs kiMBXc"
+            className="sc-htoDjs fZVGDg"
             scale={0}
           />
           <div
-            className="sc-htoDjs kZlYmM"
+            className="sc-htoDjs kNOmOF"
             scale={90}
           />
           <div
-            className="sc-htoDjs gfthgf"
+            className="sc-htoDjs eVWcOl"
             scale={270}
           />
           <div
-            className="sc-htoDjs eTKnVr"
+            className="sc-htoDjs cRaJOA"
             scale={180}
           />
         </div>
@@ -2933,24 +2933,24 @@ exports[`Storyshots FoldingCube render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-dnqmqq hAILAk"
+          className="sc-dnqmqq haDyer"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-htoDjs kiMBXc"
+            className="sc-htoDjs fZVGDg"
             scale={0}
           />
           <div
-            className="sc-htoDjs kZlYmM"
+            className="sc-htoDjs kNOmOF"
             scale={90}
           />
           <div
-            className="sc-htoDjs gfthgf"
+            className="sc-htoDjs eVWcOl"
             scale={270}
           />
           <div
-            className="sc-htoDjs eTKnVr"
+            className="sc-htoDjs cRaJOA"
             scale={180}
           />
         </div>
@@ -3274,56 +3274,56 @@ exports[`Storyshots ForldingCircle render 1`] = `
     <div>
       <div>
         <div
-          className="sc-bxivhb cMkKYV"
+          className="sc-bxivhb bcgDyD"
           color="#333"
           size={40}
         >
           <div
-            className="sc-htpNat hfRYoI"
+            className="sc-htpNat byvgNH"
             rotate={0}
           />
           <div
-            className="sc-htpNat bfBVos"
+            className="sc-htpNat dcIyUZ"
             rotate={30}
           />
           <div
-            className="sc-htpNat kYywqx"
+            className="sc-htpNat gHfOPz"
             rotate={60}
           />
           <div
-            className="sc-htpNat jXaIck"
+            className="sc-htpNat fzkRhy"
             rotate={90}
           />
           <div
-            className="sc-htpNat egsoUa"
+            className="sc-htpNat bFhVBE"
             rotate={120}
           />
           <div
-            className="sc-htpNat glGuYD"
+            className="sc-htpNat flMEzR"
             rotate={150}
           />
           <div
-            className="sc-htpNat eGltOj"
+            className="sc-htpNat htMwVN"
             rotate={180}
           />
           <div
-            className="sc-htpNat bMpoTy"
+            className="sc-htpNat btPfvp"
             rotate={210}
           />
           <div
-            className="sc-htpNat fTbdUI"
+            className="sc-htpNat ehegQp"
             rotate={240}
           />
           <div
-            className="sc-htpNat jnTgCw"
+            className="sc-htpNat bJpDWa"
             rotate={270}
           />
           <div
-            className="sc-htpNat WWEij"
+            className="sc-htpNat iezCVm"
             rotate={300}
           />
           <div
-            className="sc-htpNat htSVna"
+            className="sc-htpNat fTDoJN"
             rotate={330}
           />
         </div>
@@ -3590,56 +3590,56 @@ exports[`Storyshots ForldingCircle render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-bxivhb hxkXEa"
+          className="sc-bxivhb gIfSHQ"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-htpNat hfRYoI"
+            className="sc-htpNat byvgNH"
             rotate={0}
           />
           <div
-            className="sc-htpNat bfBVos"
+            className="sc-htpNat dcIyUZ"
             rotate={30}
           />
           <div
-            className="sc-htpNat kYywqx"
+            className="sc-htpNat gHfOPz"
             rotate={60}
           />
           <div
-            className="sc-htpNat jXaIck"
+            className="sc-htpNat fzkRhy"
             rotate={90}
           />
           <div
-            className="sc-htpNat egsoUa"
+            className="sc-htpNat bFhVBE"
             rotate={120}
           />
           <div
-            className="sc-htpNat glGuYD"
+            className="sc-htpNat flMEzR"
             rotate={150}
           />
           <div
-            className="sc-htpNat eGltOj"
+            className="sc-htpNat htMwVN"
             rotate={180}
           />
           <div
-            className="sc-htpNat bMpoTy"
+            className="sc-htpNat btPfvp"
             rotate={210}
           />
           <div
-            className="sc-htpNat fTbdUI"
+            className="sc-htpNat ehegQp"
             rotate={240}
           />
           <div
-            className="sc-htpNat jnTgCw"
+            className="sc-htpNat bJpDWa"
             rotate={270}
           />
           <div
-            className="sc-htpNat WWEij"
+            className="sc-htpNat iezCVm"
             rotate={300}
           />
           <div
-            className="sc-htpNat htSVna"
+            className="sc-htpNat fTDoJN"
             rotate={330}
           />
         </div>
@@ -3963,7 +3963,7 @@ exports[`Storyshots Pulse render 1`] = `
     <div>
       <div>
         <div
-          className="sc-jTzLTM jQjjYc"
+          className="sc-jTzLTM gVDnKT"
           color="#333"
           size={40}
         />
@@ -4230,7 +4230,7 @@ exports[`Storyshots Pulse render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-jTzLTM aqWWn"
+          className="sc-jTzLTM LyzDs"
           color="magenta"
           size={60}
         />
@@ -4554,7 +4554,7 @@ exports[`Storyshots RotaingPlain render 1`] = `
     <div>
       <div>
         <div
-          className="sc-chPdSV btJudn"
+          className="sc-chPdSV elkuEF"
           color="#333"
           size={40}
           speed={1.2}
@@ -4822,7 +4822,7 @@ exports[`Storyshots RotaingPlain render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-chPdSV chaMSZ"
+          className="sc-chPdSV eSjRvr"
           color="magenta"
           size={60}
           speed={1.2}
@@ -5147,18 +5147,18 @@ exports[`Storyshots ThreeBounce render 1`] = `
     <div>
       <div>
         <div
-          className="sc-EHOje ibbKzA"
+          className="sc-EHOje bueXxV"
           color="#333"
           size={40}
         >
           <div
-            className="sc-ifAKCX kywMgE"
+            className="sc-ifAKCX ciriWS"
           />
           <div
-            className="sc-ifAKCX ghJCtb"
+            className="sc-ifAKCX ihPBKO"
           />
           <div
-            className="sc-ifAKCX frRplL"
+            className="sc-ifAKCX dcGeKo"
           />
         </div>
       </div>
@@ -5424,18 +5424,18 @@ exports[`Storyshots ThreeBounce render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-EHOje blLkbs"
+          className="sc-EHOje cIojGN"
           color="magenta"
           size={60}
         >
           <div
-            className="sc-ifAKCX kywMgE"
+            className="sc-ifAKCX ciriWS"
           />
           <div
-            className="sc-ifAKCX ghJCtb"
+            className="sc-ifAKCX ihPBKO"
           />
           <div
-            className="sc-ifAKCX frRplL"
+            className="sc-ifAKCX dcGeKo"
           />
         </div>
       </div>
@@ -5758,17 +5758,17 @@ exports[`Storyshots WanderingCubes render 1`] = `
     <div>
       <div>
         <div
-          className="sc-gZMcBi cjGUQQ"
+          className="sc-gZMcBi fNhrLT"
           color="#333"
           size={40}
           speed={1.8}
         >
           <div
-            className="sc-iwsKbI fowQCJ"
+            className="sc-iwsKbI jaHESW"
             size={10}
           />
           <div
-            className="sc-iwsKbI cTUuNw"
+            className="sc-iwsKbI hOFEAe"
             size={10}
           />
         </div>
@@ -6035,17 +6035,17 @@ exports[`Storyshots WanderingCubes render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-gZMcBi fHFBsh"
+          className="sc-gZMcBi iMYccL"
           color="magenta"
           size={60}
           speed={1.8}
         >
           <div
-            className="sc-iwsKbI gcAynG"
+            className="sc-iwsKbI epFVsO"
             size={15}
           />
           <div
-            className="sc-iwsKbI cDpPyz"
+            className="sc-iwsKbI gUCXrT"
             size={15}
           />
         </div>
@@ -6369,25 +6369,25 @@ exports[`Storyshots Wave render 1`] = `
     <div>
       <div>
         <div
-          className="sc-jzJRlG iBipVf"
+          className="sc-jzJRlG ckpHGs"
           color="#333"
           size={40}
           speed={1.2}
         >
           <div
-            className="sc-fjdhpX fJqeMR"
+            className="sc-fjdhpX cRAJGU"
           />
           <div
-            className="sc-fjdhpX dTKeSO"
+            className="sc-fjdhpX dogAnq"
           />
           <div
-            className="sc-fjdhpX dADJCf"
+            className="sc-fjdhpX eBQBFS"
           />
           <div
-            className="sc-fjdhpX dRRmax"
+            className="sc-fjdhpX uwKwC"
           />
           <div
-            className="sc-fjdhpX cHdjqk"
+            className="sc-fjdhpX czQHbh"
           />
         </div>
       </div>
@@ -6653,25 +6653,25 @@ exports[`Storyshots Wave render magenta 60 1`] = `
     <div>
       <div>
         <div
-          className="sc-jzJRlG btoMgc"
+          className="sc-jzJRlG jQzVfV"
           color="magenta"
           size={60}
           speed={1.2}
         >
           <div
-            className="sc-fjdhpX fJqeMR"
+            className="sc-fjdhpX cRAJGU"
           />
           <div
-            className="sc-fjdhpX dTKeSO"
+            className="sc-fjdhpX dogAnq"
           />
           <div
-            className="sc-fjdhpX dADJCf"
+            className="sc-fjdhpX eBQBFS"
           />
           <div
-            className="sc-fjdhpX dRRmax"
+            className="sc-fjdhpX uwKwC"
           />
           <div
-            className="sc-fjdhpX cHdjqk"
+            className="sc-fjdhpX czQHbh"
           />
         </div>
       </div>

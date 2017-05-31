@@ -17,6 +17,12 @@ const plugins = [
       'transform-flow-strip-types',
       'external-helpers',
       'transform-class-properties',
+      [
+        'styled-components',
+        {
+          displayName: false,
+        },
+      ],
     ],
   }),
 ]
