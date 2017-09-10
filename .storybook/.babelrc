@@ -1,13 +1,13 @@
 {
-  "presets": [
-    "env",
-    "react"
-  ],
+  "presets": ["env", "react"],
   "plugins": [
     "transform-flow-strip-types",
     "transform-class-properties",
-    ["styled-components", {
-      "displayName": false
-    }]
+    [
+      "styled-components",
+      {
+        "displayName": false
+      }
+    ]
   ]
 }
