@@ -32,11 +32,7 @@ class FoldingCube extends React.PureComponent<DefaultProps, Props, void> {
       />
     ))
 
-    return (
-      <StyledFoldingCube {...this.props}>
-        {cubes}
-      </StyledFoldingCube>
-    )
+    return <StyledFoldingCube {...this.props}>{cubes}</StyledFoldingCube>
   }
 }
 

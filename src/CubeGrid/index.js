@@ -24,11 +24,7 @@ class CubeGrid extends React.PureComponent<DefaultProps, Props, void> {
       .map(v => roundTo(range * v, 2))
       .map((v, k) => <Child key={k} delay={v} />)
 
-    return (
-      <StyledCubeGrid {...this.props}>
-        {cubes}
-      </StyledCubeGrid>
-    )
+    return <StyledCubeGrid {...this.props}>{cubes}</StyledCubeGrid>
   }
 }
 

@@ -19,21 +19,21 @@ const debounce = keyframes`
 `
 
 export const Child = styled.div`
-  ${size('100%')}
+  ${size('100%')};
   border-radius: 50%;
   position: absolute;
   opacity: 0.6;
   top: 0;
   left: 0;
   animation: ${debounce} 2s infinite ease-in-out;
-  ${p => p.isDelay && animationDelay(-1)}
+  ${p => p.isDelay && animationDelay(-1)};
 `
 
 export const StyledDoubleBounce = styled.div`
-  ${propSize}
+  ${propSize};
   position: relative;
-  ${propMargin}
+  ${propMargin};
   > ${Child} {
-    ${propBgColor}
+    ${propBgColor};
   }
 `

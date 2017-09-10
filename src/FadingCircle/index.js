@@ -31,9 +31,7 @@ class ForldingCircle extends React.PureComponent<DefaultProps, Props, void> {
     ))
 
     return (
-      <StyledForldingCircle {...this.props}>
-        {circles}
-      </StyledForldingCircle>
+      <StyledForldingCircle {...this.props}>{circles}</StyledForldingCircle>
     )
   }
 }

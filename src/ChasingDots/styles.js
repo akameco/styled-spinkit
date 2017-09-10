@@ -27,27 +27,29 @@ const bounce = keyframes`
 const duration = 2
 
 export const Child = styled.div`
-  ${size('60%')}
+  ${size('60%')};
   display: inline-block;
   position: absolute;
   top: 0;
   border-radius: 100%;
   animation: ${bounce} ${duration}s infinite ease-in-out;
-  ${p => p.second && css`
-    top: auto;
-    bottom: 0;
-    ${animationDelay(-duration / 2)}
-  `}
+  ${p =>
+    p.second &&
+    css`
+      top: auto;
+      bottom: 0;
+      ${animationDelay(-duration / 2)};
+    `};
 `
 
 export const StyledChangeDots = styled.div`
-  ${propSize}
-  ${propMargin}
+  ${propSize};
+  ${propMargin};
   position: relative;
   text-align: center;
   animation: ${rotate} ${duration}s infinite linear;
 
   > ${Child} {
-    ${propBgColor}
+    ${propBgColor};
   }
 `

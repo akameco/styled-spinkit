@@ -16,16 +16,15 @@ const scale = keyframes`
 `
 
 export const Child = styled.div`
-  ${size('33.33%')}
+  ${size('33.33%')};
   float: left;
   animation: ${scale} 1.3s infinite ease-in-out ${p => p.delay}s;
 `
 
 export const StyledCubeGrid = styled.div`
-  ${propSize}
-  ${propMargin}
-
+  ${propSize};
+  ${propMargin};
   > ${Child} {
-    ${propBgColor}
+    ${propBgColor};
   }
 `

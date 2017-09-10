@@ -29,11 +29,7 @@ class Circle extends React.PureComponent<DefaultProps, Props, void> {
       return <Child key={delay} delay={delay} transform={transform} />
     })
 
-    return (
-      <StyledCircle {...this.props}>
-        {circles}
-      </StyledCircle>
-    )
+    return <StyledCircle {...this.props}>{circles}</StyledCircle>
   }
 }
 

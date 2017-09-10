@@ -13,9 +13,9 @@ const scaleOut = keyframes`
 `
 
 const StyledPulse = styled.div`
-  ${propSize}
-  ${propBgColor}
-  ${propMargin}
+  ${propSize};
+  ${propBgColor};
+  ${propMargin};
   border-radius: 100%;
   animation: ${scaleOut} 1s ease-in-out infinite;
 `

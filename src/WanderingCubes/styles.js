@@ -26,11 +26,11 @@ const createAnim = (cubeDistance: number = 42) => keyframes`
 `
 
 export const Child = styled.div`
-  ${propSize}
+  ${propSize};
   position: absolute;
   top: 0;
   left: 0;
-  ${propDelay}
+  ${propDelay};
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
@@ -38,13 +38,13 @@ export const Child = styled.div`
 
 export const StyledWanderingCubes = styled.div`
   margin: ${p => roundTo(p.size * 0.8, 1)}px auto;
-  ${propSize}
+  ${propSize};
   text-align: center;
   font-size: 10px;
   position: relative;
 
   > ${Child} {
-    ${propBgColor}
+    ${propBgColor};
     animation-name: ${p => createAnim(roundTo(p.size * 0.8, 1))};
     animation-duration: ${p => p.speed}s;
   }

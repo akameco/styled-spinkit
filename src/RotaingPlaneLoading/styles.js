@@ -16,9 +16,9 @@ const spin = keyframes`
 `
 
 const StyledRotaingPlain = styled.div`
-  ${propSize}
-  ${propBgColor}
-  ${propMargin}
+  ${propSize};
+  ${propBgColor};
+  ${propMargin};
   animation: ${spin} ${p => p.speed}s infinite ease-in-out;
 `
 

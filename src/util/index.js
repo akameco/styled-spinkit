@@ -2,9 +2,9 @@
 import { css } from 'styled-components'
 
 export const size = (width: string, height?: string = width) => css`
-    width: ${width};
-    height: ${height};
-  `
+  width: ${width};
+  height: ${height};
+`
 
 export const sizePx = (n: number) => size(`${n}px`)
 
@@ -18,9 +18,7 @@ export const propMargin = ({ size = 0 }: { size?: number }) => css`
   margin: ${size}px auto;
 `
 
-export const animationDelay = (n: number) => css`
-  animation-delay: ${n}s;
-`
+export const animationDelay = (n: number) => css`animation-delay: ${n}s;`
 
 export const propDelay = ({ delay }: { delay: number }) => animationDelay(delay)
 

@@ -21,11 +21,11 @@ export const Child = styled.div`
 
 export const StyledThreeBounce = styled.div`
   width: ${p => p.size}px;
-  ${propMargin}
+  ${propMargin};
   text-align: center;
   border-radius: 100%;
   > ${Child} {
-    ${p => sizePx(p.size / 4)}
-    ${propBgColor}
+    ${p => sizePx(p.size / 4)};
+    ${propBgColor};
   }
 `

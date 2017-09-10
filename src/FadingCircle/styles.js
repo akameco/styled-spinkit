@@ -15,7 +15,7 @@ const opacity = keyframes`
 `
 
 export const Child = styled.div`
-  ${size('100%')}
+  ${size('100%')};
   position: absolute;
   left: 0;
   top: 0;
@@ -24,20 +24,20 @@ export const Child = styled.div`
     content: '';
     display: block;
     margin: 0 auto;
-    ${size('15%')}
+    ${size('15%')};
     border-radius: 100%;
     animation: ${opacity} 1.2s infinite ease-in-out both -${p => p.delay}s;
   }
 `
 
 export const StyledForldingCircle = styled.div`
-  ${propSize}
-  ${propMargin}
+  ${propSize};
+  ${propMargin};
   position: relative;
 
   > ${Child} {
     &::before {
-      ${propBgColor}
+      ${propBgColor};
     }
   }
 `

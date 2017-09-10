@@ -14,20 +14,20 @@ const anim = keyframes`
 `
 
 export const Rect = styled.div`
-  ${size('7px', '100%')}
+  ${size('7px', '100%')};
   margin: 0 3px 0 0;
   display: inline-block;
-  ${propDelay}
+  ${propDelay};
 `
 
 export const StyledWave = styled.div`
-  ${propMargin}
-  ${p => size(`${p.size * 1.25}px`, `${p.size}px`)}
+  ${propMargin};
+  ${p => size(`${p.size * 1.25}px`, `${p.size}px`)};
   text-align: center;
   font-size: 10px;
 
   > ${Rect} {
-    ${propBgColor}
+    ${propBgColor};
     animation-name: ${anim};
     animation-duration: ${p => p.speed}s;
     animation-timing-function: ease-in-out;
