@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render Child 1`] = `
-.gehAJD {
+.c0 {
   width: 7px;
   height: 100%;
   margin: 0 3px 0 0;
@@ -11,21 +11,20 @@ exports[`render Child 1`] = `
 }
 
 <div
-  className="sc-bdVaJa gehAJD"
+  className="c0"
 />
 `;
 
 exports[`render without props 1`] = `
-.iQvLAd {
+.c0 {
   margin: 40px auto;
   width: 50px;
   height: 40px;
-  -webkit-text-align: center;
   text-align: center;
   font-size: 10px;
 }
 
-.iQvLAd > .sc-bdVaJa {
+.c0 > .sc-bdVaJa {
   background-color: #333;
   -webkit-animation-name: kCGIFG;
   animation-name: kCGIFG;
@@ -38,7 +37,7 @@ exports[`render without props 1`] = `
 }
 
 <div
-  className="sc-bwzfXH iQvLAd"
+  className="c0"
   color="#333"
   size={40}
 />

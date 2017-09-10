@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render Child 1`] = `
-.hoIOtk {
+.c0 {
   width: 33.33%;
   height: 33.33%;
   float: left;
@@ -10,23 +10,23 @@ exports[`render Child 1`] = `
 }
 
 <div
-  className="sc-bdVaJa hoIOtk"
+  className="c0"
 />
 `;
 
 exports[`render without props 1`] = `
-.BbHAK {
+.c0 {
   width: 40px;
   height: 40px;
   margin: 40px auto;
 }
 
-.BbHAK > .sc-bdVaJa {
+.c0 > .sc-bdVaJa {
   background-color: #333;
 }
 
 <div
-  className="sc-bwzfXH BbHAK"
+  className="c0"
   color="#333"
   size={40}
 />

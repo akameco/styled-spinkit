@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render Child 1`] = `
-.gMGsdN {
+.c0 {
   width: 60%;
   height: 60%;
   display: inline-block;
@@ -13,12 +13,12 @@ exports[`render Child 1`] = `
 }
 
 <div
-  className="sc-bdVaJa gMGsdN"
+  className="c0"
 />
 `;
 
 exports[`render Child second=true 1`] = `
-.bkmyJo {
+.c0 {
   width: 60%;
   height: 60%;
   display: inline-block;
@@ -34,28 +34,27 @@ exports[`render Child second=true 1`] = `
 }
 
 <div
-  className="sc-bdVaJa bkmyJo"
+  className="c0"
 />
 `;
 
 exports[`render without props 1`] = `
-.jaxMaR {
+.c0 {
   width: 40px;
   height: 40px;
   margin: 40px auto;
   position: relative;
-  -webkit-text-align: center;
   text-align: center;
   -webkit-animation: cZxgpV 2s infinite linear;
   animation: cZxgpV 2s infinite linear;
 }
 
-.jaxMaR > .sc-bdVaJa {
+.c0 > .sc-bdVaJa {
   background-color: #333;
 }
 
 <div
-  className="sc-bwzfXH jaxMaR"
+  className="c0"
   color="#333"
   size={40}
 />

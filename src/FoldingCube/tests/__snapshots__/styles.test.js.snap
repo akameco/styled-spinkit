@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render Child 1`] = `
-.USRcJ {
+.c0 {
   float: left;
   width: 50%;
   height: 50%;
@@ -11,7 +11,7 @@ exports[`render Child 1`] = `
   transform: scale(1.1) rotateZ(deg);
 }
 
-.USRcJ:before {
+.c0:before {
   content: '';
   position: absolute;
   top: 0;
@@ -26,12 +26,12 @@ exports[`render Child 1`] = `
 }
 
 <div
-  className="sc-bdVaJa USRcJ"
+  className="c0"
 />
 `;
 
 exports[`render Child second=true 1`] = `
-.USRcJ {
+.c0 {
   float: left;
   width: 50%;
   height: 50%;
@@ -41,7 +41,7 @@ exports[`render Child second=true 1`] = `
   transform: scale(1.1) rotateZ(deg);
 }
 
-.USRcJ:before {
+.c0:before {
   content: '';
   position: absolute;
   top: 0;
@@ -56,12 +56,12 @@ exports[`render Child second=true 1`] = `
 }
 
 <div
-  className="sc-bdVaJa USRcJ"
+  className="c0"
 />
 `;
 
 exports[`render without props 1`] = `
-.bRAoKj {
+.c0 {
   width: 40px;
   height: 40px;
   margin: 40px auto;
@@ -71,12 +71,12 @@ exports[`render without props 1`] = `
   transform: rotateZ(45deg);
 }
 
-.bRAoKj > .sc-bdVaJa:before {
+.c0 > .sc-bdVaJa:before {
   background-color: #333;
 }
 
 <div
-  className="sc-bwzfXH bRAoKj"
+  className="c0"
   color="#333"
   size={40}
 />

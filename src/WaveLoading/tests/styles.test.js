@@ -1,6 +1,3 @@
-/**
- * @jest-environment node
-*/
 // @flow
 import React from 'react'
 import { shallow } from 'enzyme'
@@ -10,10 +7,10 @@ import { Rect, StyledWave } from '../styles'
 
 test('render Child', () => {
   const wrapper = shallow(<Rect />)
-  expect(toJson(wrapper)).toMatchStyledComponentsSnapshot()
+  expect(toJson(wrapper)).toMatchSnapshot()
 })
 
 test('render without props', () => {
   const wrapper = shallow(<StyledWave size={40} color={'#333'} />)
-  expect(toJson(wrapper)).toMatchStyledComponentsSnapshot()
+  expect(toJson(wrapper)).toMatchSnapshot()
 })

@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render 1`] = `
-.hGnbQE {
+.c0 {
   margin: 40px auto;
   width: 40px;
   height: 40px;
   position: relative;
 }
 
-.hGnbQE > .sc-bdVaJa::before {
+.c0 > .sc-bdVaJa::before {
   background-color: #333;
 }
 
 <div
-  className="sc-bwzfXH hGnbQE"
+  className="c0"
   color="#333"
   size={40}
 />
 `;
 
 exports[`render Child 1`] = `
-.ivdXsI {
+.c0 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -31,7 +31,7 @@ exports[`render Child 1`] = `
   transform: rotate(deg);
 }
 
-.ivdXsI::before {
+.c0::before {
   content: '';
   display: block;
   margin: 0 auto;
@@ -43,6 +43,6 @@ exports[`render Child 1`] = `
 }
 
 <div
-  className="sc-bdVaJa ivdXsI"
+  className="c0"
 />
 `;
