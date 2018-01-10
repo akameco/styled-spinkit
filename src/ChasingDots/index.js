@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import * as React from 'react'
 import { StyledChangeDots, Child } from './styles'
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 
 type DefaultProps = Props
 
-class ChangeDots extends React.PureComponent<DefaultProps, Props, void> {
+class ChangeDots extends React.PureComponent<Props, void> {
   static defaultProps = {
     size: 40,
     color: '#eee',

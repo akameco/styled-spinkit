@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import * as React from 'react'
 import roundTo from 'round-to'
 import { getRange } from '../util'
 import { Child, StyledForldingCircle } from './styles'
@@ -11,7 +11,7 @@ type Props = {
 
 type DefaultProps = Props
 
-class ForldingCircle extends React.PureComponent<DefaultProps, Props, void> {
+class ForldingCircle extends React.PureComponent<Props, void> {
   static defaultProps = {
     size: 40,
     color: '#333',

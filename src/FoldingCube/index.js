@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import * as React from 'react'
 import roundTo from 'round-to'
 import { Child, StyledFoldingCube } from './styles'
 
@@ -10,7 +10,7 @@ type Props = {
 
 type DefaultProps = Props
 
-class FoldingCube extends React.PureComponent<DefaultProps, Props, void> {
+class FoldingCube extends React.PureComponent<Props, void> {
   static defaultProps = {
     size: 40,
     color: '#333',

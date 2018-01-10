@@ -18,7 +18,10 @@ export const propMargin = ({ size = 0 }: { size?: number }) => css`
   margin: ${size}px auto;
 `
 
-export const animationDelay = (n: number) => css`animation-delay: ${n}s;`
+export const animationDelay = (n: number) =>
+  css`
+    animation-delay: ${n}s;
+  `
 
 export const propDelay = ({ delay }: { delay: number }) => animationDelay(delay)
 
