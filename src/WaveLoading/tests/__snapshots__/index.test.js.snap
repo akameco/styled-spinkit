@@ -8,18 +8,23 @@ exports[`render without props 1`] = `
 >
   <styled.div
     delay={-1.2}
+    key="0"
   />
   <styled.div
     delay={-1.1}
+    key="1"
   />
   <styled.div
     delay={-1}
+    key="2"
   />
   <styled.div
     delay={-0.9}
+    key="3"
   />
   <styled.div
     delay={-0.8}
+    key="4"
   />
 </styled.div>
 `;

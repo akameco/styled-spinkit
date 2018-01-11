@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import * as React from 'react'
 import roundTo from 'round-to'
 import { Child, StyledCubeGrid } from './styles'
 
@@ -8,9 +8,7 @@ type Props = {
   color: string,
 }
 
-type DefaultProps = Props
-
-class CubeGrid extends React.PureComponent<DefaultProps, Props, void> {
+class CubeGrid extends React.PureComponent<Props, void> {
   static defaultProps = {
     size: 40,
     color: '#333',

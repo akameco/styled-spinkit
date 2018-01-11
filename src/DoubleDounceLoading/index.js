@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import * as React from 'react'
 import { Child, StyledDoubleBounce } from './styles'
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 
 type DefaultProps = Props
 
-class DoubleBounce extends React.PureComponent<DefaultProps, Props, void> {
+class DoubleBounce extends React.PureComponent<Props, void> {
   static defaultProps = {
     color: '#333',
     size: 40,
