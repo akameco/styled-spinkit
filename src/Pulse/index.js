@@ -7,8 +7,6 @@ type Props = {
   color: string,
 }
 
-type DefaultProps = Props
-
 class Pulse extends React.PureComponent<Props, void> {
   static defaultProps = {
     size: 40,

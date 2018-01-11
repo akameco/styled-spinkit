@@ -9,8 +9,6 @@ type Props = {
   color: string,
 }
 
-type DefaultProps = Props
-
 class Wave extends React.PureComponent<Props, void> {
   static defaultProps = {
     color: '#333',
