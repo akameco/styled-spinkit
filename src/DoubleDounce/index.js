@@ -7,8 +7,6 @@ type Props = {
   color: string,
 }
 
-type DefaultProps = Props
-
 class DoubleBounce extends React.PureComponent<Props, void> {
   static defaultProps = {
     color: '#333',
