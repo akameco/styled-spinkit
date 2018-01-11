@@ -8,8 +8,8 @@ exports[`render Child 1`] = `
   position: absolute;
   top: 0;
   border-radius: 100%;
-  -webkit-animation: byrAmM 2s infinite ease-in-out;
-  animation: byrAmM 2s infinite ease-in-out;
+  -webkit-animation: eeCuoj 2s infinite ease-in-out;
+  animation: eeCuoj 2s infinite ease-in-out;
 }
 
 <div
@@ -25,8 +25,8 @@ exports[`render Child second=true 1`] = `
   position: absolute;
   top: 0;
   border-radius: 100%;
-  -webkit-animation: byrAmM 2s infinite ease-in-out;
-  animation: byrAmM 2s infinite ease-in-out;
+  -webkit-animation: eeCuoj 2s infinite ease-in-out;
+  animation: eeCuoj 2s infinite ease-in-out;
   top: auto;
   bottom: 0;
   -webkit-animation-delay: -1s;

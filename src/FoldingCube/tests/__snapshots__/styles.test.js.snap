@@ -11,7 +11,7 @@ exports[`render Child 1`] = `
   transform: scale(1.1) rotateZ(deg);
 }
 
-.c0:before {
+.c0::before {
   content: '';
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@ exports[`render Child second=true 1`] = `
   transform: scale(1.1) rotateZ(deg);
 }
 
-.c0:before {
+.c0::before {
   content: '';
   position: absolute;
   top: 0;
@@ -71,7 +71,7 @@ exports[`render without props 1`] = `
   transform: rotateZ(45deg);
 }
 
-.c0 > .sc-bdVaJa:before {
+.c0 > .sc-bdVaJa::before {
   background-color: #333;
 }
 
