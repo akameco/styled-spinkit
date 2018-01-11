@@ -30,7 +30,7 @@
     "prebuild:dist": "rimraf dist/*",
     "build:dist": "rollup -c",
     "build:flow": "flow-copy-source -v -i '{**/tests/*.js,**/*.test.js}' src lib",
-    "fmt": "prettier --write 'src/**/*.js'",
+    "fmt": "prettier --write '**/*.{js,json,md}'",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
@@ -42,7 +42,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.js": [
+    ".{js,json,md}": [
       "fmt",
       "git add"
     ]
