@@ -25,7 +25,7 @@ export const Child = styled.div`
   ${size('50%')};
   position: relative;
   transform: scale(1.1) rotateZ(${p => p.scale}deg);
-  &:before {
+  &::before {
     content: '';
     position: absolute;
     top: 0;
@@ -44,7 +44,7 @@ export const StyledFoldingCube = styled.div`
   transform: rotateZ(45deg);
 
   > ${Child} {
-    &:before {
+    &::before {
       ${propBgColor};
     }
   }
