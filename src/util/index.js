@@ -27,4 +27,4 @@ export const animationDelay = (n: number) =>
 
 export const propDelay = ({ delay }: { delay: number }) => animationDelay(delay)
 
-export const getRange = (n: number) => [...new Array(n).keys()]
+export const getRange = (n: number) => Array.from(Array(n).keys())
