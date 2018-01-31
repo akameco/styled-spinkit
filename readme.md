@@ -4,7 +4,7 @@
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![MIT License](https://img.shields.io/npm/l/nps.svg?style=flat-square)](./license)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 > Simple animation loading components with [styled-components](https://github.com/styled-components/styled-components)
 
@@ -56,8 +56,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;"/><br /><sub><b>akameco</b></sub>](http://akameco.github.io)<br />[💻](https://github.com/akameco/styled-spinkit/commits?author=akameco "Code") [📖](https://github.com/akameco/styled-spinkit/commits?author=akameco "Documentation") [⚠️](https://github.com/akameco/styled-spinkit/commits?author=akameco "Tests") [🚇](#infra-akameco "Infrastructure (Hosting, Build-Tools, etc)") |
-| :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;"/><br /><sub><b>akameco</b></sub>](http://akameco.github.io)<br />[💻](https://github.com/akameco/styled-spinkit/commits?author=akameco "Code") [📖](https://github.com/akameco/styled-spinkit/commits?author=akameco "Documentation") [⚠️](https://github.com/akameco/styled-spinkit/commits?author=akameco "Tests") [🚇](#infra-akameco "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars1.githubusercontent.com/u/19670625?v=4" width="100px;"/><br /><sub><b>jrusx</b></sub>](https://github.com/jrusx)<br />[💻](https://github.com/akameco/styled-spinkit/commits?author=jrusx "Code") [🐛](https://github.com/akameco/styled-spinkit/issues?q=author%3Ajrusx "Bug reports") |
+| :---: | :---: |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
