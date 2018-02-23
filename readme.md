@@ -1,5 +1,7 @@
 # styled-spinkit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/styled-spinkit.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/akameco/styled-spinkit.svg?branch=master)](https://travis-ci.org/akameco/styled-spinkit)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
