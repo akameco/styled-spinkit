@@ -39,7 +39,7 @@ $ npm install --save styled-spinkit
 * `<FoldingCube/>`
 * `<WanderingCubes/>`
 * `<WaveLoading/>`
-* `<DoubleDounce/>`
+* `<DoubleBounce/>`
 * `<RotaingPlane/>`
 
 #### Props

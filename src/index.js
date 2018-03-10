@@ -8,7 +8,7 @@ import WanderingCubes from './WanderingCubes'
 import CubeGrid from './CubeGrid'
 import Pulse from './Pulse'
 import WaveLoading from './WaveLoading'
-import DoubleDounce from './DoubleDounce'
+import DoubleBounce from './DoubleBounce'
 import RotaingPlane from './RotaingPlane'
 
 export {
@@ -21,6 +21,6 @@ export {
   FoldingCube,
   WanderingCubes,
   WaveLoading,
-  DoubleDounce,
+  DoubleBounce,
   RotaingPlane,
 }
