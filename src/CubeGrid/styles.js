@@ -1,5 +1,5 @@
 // @flow
-import styled, { keyframes, css } from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 import { size, propSize, propMargin, propBgColor } from '../util'
 

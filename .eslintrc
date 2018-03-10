@@ -1,3 +1,6 @@
 {
-  "extends": ["precure/oss", "precure/react"]
+  "extends": ["precure/oss", "precure/react"],
+  "rules": {
+    "import/no-unassigned-import": 0
+  }
 }
