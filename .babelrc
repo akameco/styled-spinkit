@@ -1,12 +1,7 @@
 {
-  "presets": [
-    "env",
-    "react"
-  ],
+  "presets": ["zero"],
   "plugins": [
     "flow-react-proptypes",
-    "transform-flow-strip-types",
-    "transform-class-properties",
     ["styled-components", {
       "displayName": false
     }]
