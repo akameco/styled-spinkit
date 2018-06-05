@@ -30,17 +30,17 @@ $ npm install --save styled-spinkit
 
 ### Components
 
-* `<ChasingDots/>`
-* `<Circle/>`
-* `<CubeGrid/>`
-* `<Pulse/>`
-* `<FadingCircle/>`
-* `<ThreeBounce/>`
-* `<FoldingCube/>`
-* `<WanderingCubes/>`
-* `<WaveLoading/>`
-* `<DoubleBounce/>`
-* `<RotaingPlane/>`
+- `<ChasingDots/>`
+- `<Circle/>`
+- `<CubeGrid/>`
+- `<Pulse/>`
+- `<FadingCircle/>`
+- `<ThreeBounce/>`
+- `<FoldingCube/>`
+- `<WanderingCubes/>`
+- `<WaveLoading/>`
+- `<DoubleBounce/>`
+- `<RotaingPlane/>`
 
 #### Props
 

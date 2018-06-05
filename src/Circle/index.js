@@ -22,8 +22,8 @@ class Circle extends React.PureComponent<Props, void> {
     const speed = 1.2
 
     const circles = getRange(count).map(k => {
-      const transform = roundTo(360 / count * (k + 1), 1)
-      const delay = roundTo(-speed + speed / count * k, 1)
+      const transform = roundTo((360 / count) * (k + 1), 1)
+      const delay = roundTo(-speed + (speed / count) * k, 1)
       return <Child key={delay} delay={delay} transform={transform} />
     })
 

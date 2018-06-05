@@ -25,7 +25,7 @@ class FoldingCube extends React.PureComponent<Props, void> {
       <Child
         scale={90 * v}
         key={v}
-        delay={roundTo(range / cubeCount * v, 2)}
+        delay={roundTo((range / cubeCount) * v, 2)}
         duration={duration}
       />
     ))
