@@ -24,7 +24,7 @@ class Wave extends React.PureComponent<Props, void> {
 
     const rects = getRange(rectCount).map(v => (
       <Rect
-        delay={roundTo(-speed + delayRange / (rectCount - 1) * v, 1)}
+        delay={roundTo(-speed + (delayRange / (rectCount - 1)) * v, 1)}
         key={v}
       />
     ))

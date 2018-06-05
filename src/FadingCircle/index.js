@@ -23,8 +23,8 @@ class ForldingCircle extends React.PureComponent<Props, void> {
     const circles = getRange(count).map(v => (
       <Child
         key={v}
-        rotate={roundTo(360 / count * v, 1)}
-        delay={roundTo(range - range / count * v, 2)}
+        rotate={roundTo((360 / count) * v, 1)}
+        delay={roundTo(range - (range / count) * v, 2)}
       />
     ))
 
