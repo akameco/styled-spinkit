@@ -2,7 +2,7 @@
 import * as React from 'react'
 import renderer from 'react-test-renderer'
 import 'jest-styled-components'
-import Comp from '..'
+import Comp from '.'
 
 test('render without props', () => {
   const tree = renderer.create(<Comp />).toJSON()

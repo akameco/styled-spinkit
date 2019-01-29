@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react'
 import renderer from 'react-test-renderer'
-import { Child, StyledFoldingCube } from '../styles'
+import { Child, StyledFoldingCube } from './styles'
 
 test('render Child', () => {
   const tree = renderer.create(<Child />).toJSON()
