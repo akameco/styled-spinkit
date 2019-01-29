@@ -1,21 +1,20 @@
 // @flow
 import * as React from 'react'
-import { shallow } from 'enzyme'
-import toJson from 'enzyme-to-json'
+import renderer from 'react-test-renderer'
 import 'jest-styled-components'
 import { Child, StyledChangeDots } from '../styles'
 
 test('render Child', () => {
-  const wrapper = shallow(<Child />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  const tree = renderer.create(<Child />).toJSON()
+  expect(tree).toMatchSnapshot()
 })
 
 test('render Child second=true', () => {
-  const wrapper = shallow(<Child second />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  const tree = renderer.create(<Child second />).toJSON()
+  expect(tree).toMatchSnapshot()
 })
 
 test('render without props', () => {
-  const wrapper = shallow(<StyledChangeDots size={40} color={'#333'} />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  const tree = renderer.create(<StyledChangeDots size={40} color={'#333'} />).toJSON()
+  expect(tree).toMatchSnapshot()
 })

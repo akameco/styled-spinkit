@@ -24,7 +24,7 @@ exports[`render without props 1`] = `
   font-size: 10px;
 }
 
-.c0 > .sc-bdVaJa {
+.c0 > .c1 {
   background-color: #333;
   -webkit-animation-name: kCGIFG;
   animation-name: kCGIFG;

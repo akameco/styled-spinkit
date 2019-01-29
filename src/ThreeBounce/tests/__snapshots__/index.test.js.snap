@@ -1,18 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render without props 1`] = `
-<styled.div
+.c2 {
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ctIBbK 1.4s ease-in-out -0.32s infinite both;
+  animation: ctIBbK 1.4s ease-in-out -0.32s infinite both;
+}
+
+.c3 {
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ctIBbK 1.4s ease-in-out -0.16s infinite both;
+  animation: ctIBbK 1.4s ease-in-out -0.16s infinite both;
+}
+
+.c4 {
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ctIBbK 1.4s ease-in-out 0s infinite both;
+  animation: ctIBbK 1.4s ease-in-out 0s infinite both;
+}
+
+.c0 {
+  width: 40px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.c0 > .c1 {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+}
+
+<div
+  className="c0"
   color="#333"
   size={40}
 >
-  <styled.div
-    delay={-0.32}
+  <div
+    className="c1 c2"
   />
-  <styled.div
-    delay={-0.16}
+  <div
+    className="c1 c3"
   />
-  <styled.div
-    delay={0}
+  <div
+    className="c1 c4"
   />
-</styled.div>
+</div>
 `;

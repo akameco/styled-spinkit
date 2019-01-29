@@ -21,7 +21,7 @@ exports[`render without props 1`] = `
   margin: 40px auto;
 }
 
-.c0 > .sc-bdVaJa {
+.c0 > .c1 {
   background-color: #333;
 }
 

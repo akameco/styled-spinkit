@@ -21,7 +21,7 @@ exports[`render without props 1`] = `
   border-radius: 100%;
 }
 
-.c0 > .sc-bdVaJa {
+.c0 > .c1 {
   width: 10px;
   height: 10px;
   background-color: #333;

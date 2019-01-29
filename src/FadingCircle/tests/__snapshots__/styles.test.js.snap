@@ -36,7 +36,7 @@ exports[`render without props 1`] = `
   position: relative;
 }
 
-.c0 > .sc-bdVaJa::before {
+.c0 > .c1::before {
   background-color: #333;
 }
 

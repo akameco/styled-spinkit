@@ -1,16 +1,14 @@
 // @flow
 import * as React from 'react'
-import { shallow } from 'enzyme'
-import toJson from 'enzyme-to-json'
-import 'jest-styled-components'
+import renderer from 'react-test-renderer';
 import { Rect, StyledWave } from '../styles'
 
 test('render Child', () => {
-  const wrapper = shallow(<Rect />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  const tree = renderer.create(<Rect />).toJSON()
+  expect(tree).toMatchSnapshot()
 })
 
 test('render without props', () => {
-  const wrapper = shallow(<StyledWave size={40} color={'#333'} />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  const tree = renderer.create(<StyledWave size={40} color={'#333'} />).toJSON()
+  expect(tree).toMatchSnapshot()
 })
