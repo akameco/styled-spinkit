@@ -10,6 +10,8 @@ test('render Child', () => {
 })
 
 test('render', () => {
-  const tree = renderer.create(<StyledCircle size={40} color={'#333'} />).toJSON()
+  const tree = renderer
+    .create(<StyledCircle size={40} color={'#333'} />)
+    .toJSON()
   expect(tree).toMatchSnapshot()
 })

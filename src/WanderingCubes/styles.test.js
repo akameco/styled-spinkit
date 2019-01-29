@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react'
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 import { Child, StyledWanderingCubes } from './styles'
 
 test('render Child', () => {
@@ -9,6 +9,8 @@ test('render Child', () => {
 })
 
 test('render', () => {
-  const tree = renderer.create(<StyledWanderingCubes size={40} color={'#333'} />).toJSON()
+  const tree = renderer
+    .create(<StyledWanderingCubes size={40} color={'#333'} />)
+    .toJSON()
   expect(tree).toMatchSnapshot()
 })

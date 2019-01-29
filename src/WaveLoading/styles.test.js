@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react'
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 import { Rect, StyledWave } from './styles'
 
 test('render Child', () => {
