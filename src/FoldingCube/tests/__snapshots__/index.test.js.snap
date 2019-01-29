@@ -1,33 +1,136 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render without props 1`] = `
-<styled.div
+.c2 {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1) rotateZ(0deg);
+  -ms-transform: scale(1.1) rotateZ(0deg);
+  transform: scale(1.1) rotateZ(0deg);
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: jiwbnC 2.4s infinite linear both 0s;
+  animation: jiwbnC 2.4s infinite linear both 0s;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.c3 {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  -ms-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+.c3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: jiwbnC 2.4s infinite linear both 0.3s;
+  animation: jiwbnC 2.4s infinite linear both 0.3s;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.c4 {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  -ms-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+.c4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: jiwbnC 2.4s infinite linear both 0.9s;
+  animation: jiwbnC 2.4s infinite linear both 0.9s;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.c5 {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  -ms-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+}
+
+.c5::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: jiwbnC 2.4s infinite linear both 0.6s;
+  animation: jiwbnC 2.4s infinite linear both 0.6s;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.c0 {
+  width: 40px;
+  height: 40px;
+  margin: 40px auto;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.c0 > .c1::before {
+  background-color: #333;
+}
+
+<div
+  className="c0"
   color="#333"
   size={40}
 >
-  <styled.div
-    delay={0}
-    duration={2.4}
-    key="0"
+  <div
+    className="c1 c2"
     scale={0}
   />
-  <styled.div
-    delay={0.3}
-    duration={2.4}
-    key="1"
+  <div
+    className="c1 c3"
     scale={90}
   />
-  <styled.div
-    delay={0.9}
-    duration={2.4}
-    key="3"
+  <div
+    className="c1 c4"
     scale={270}
   />
-  <styled.div
-    delay={0.6}
-    duration={2.4}
-    key="2"
+  <div
+    className="c1 c5"
     scale={180}
   />
-</styled.div>
+</div>
 `;

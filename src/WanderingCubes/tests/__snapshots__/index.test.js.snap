@@ -1,18 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render without props 1`] = `
-<styled.div
+.c2 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.c3 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.c0 {
+  margin: 32px auto;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+}
+
+.c0 > .c1 {
+  background-color: #333;
+  -webkit-animation-name: gIQwnI;
+  animation-name: gIQwnI;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+}
+
+<div
+  className="c0"
   color="#333"
   size={40}
   speed={1.8}
 >
-  <styled.div
-    delay={1.8}
+  <div
+    className="c1 c2"
     size={10}
   />
-  <styled.div
-    delay={0.9}
+  <div
+    className="c1 c3"
     size={10}
   />
-</styled.div>
+</div>
 `;

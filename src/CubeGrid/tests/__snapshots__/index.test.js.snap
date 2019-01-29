@@ -1,45 +1,87 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render without props 1`] = `
-<styled.div
+.c2 {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.2s;
+  animation: cQEajE 1.3s infinite ease-in-out 0.2s;
+}
+
+.c3 {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.3s;
+  animation: cQEajE 1.3s infinite ease-in-out 0.3s;
+}
+
+.c4 {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.4s;
+  animation: cQEajE 1.3s infinite ease-in-out 0.4s;
+}
+
+.c5 {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.1s;
+  animation: cQEajE 1.3s infinite ease-in-out 0.1s;
+}
+
+.c6 {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0s;
+  animation: cQEajE 1.3s infinite ease-in-out 0s;
+}
+
+.c0 {
+  width: 40px;
+  height: 40px;
+  margin: 40px auto;
+}
+
+.c0 > .c1 {
+  background-color: #333;
+}
+
+<div
+  className="c0"
   color="#333"
   size={40}
 >
-  <styled.div
-    delay={0.2}
-    key="0"
+  <div
+    className="c1 c2"
   />
-  <styled.div
-    delay={0.3}
-    key="1"
+  <div
+    className="c1 c3"
   />
-  <styled.div
-    delay={0.4}
-    key="2"
+  <div
+    className="c1 c4"
   />
-  <styled.div
-    delay={0.1}
-    key="3"
+  <div
+    className="c1 c5"
   />
-  <styled.div
-    delay={0.2}
-    key="4"
+  <div
+    className="c1 c2"
   />
-  <styled.div
-    delay={0.3}
-    key="5"
+  <div
+    className="c1 c3"
   />
-  <styled.div
-    delay={0}
-    key="6"
+  <div
+    className="c1 c6"
   />
-  <styled.div
-    delay={0.1}
-    key="7"
+  <div
+    className="c1 c5"
   />
-  <styled.div
-    delay={0.2}
-    key="8"
+  <div
+    className="c1 c2"
   />
-</styled.div>
+</div>
 `;

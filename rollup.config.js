@@ -9,18 +9,20 @@ const plugins = [
   nodeResolve(),
   babel({
     babelrc: false,
-    presets: [['env', { loose: true, modules: false }], 'react'],
+    presets: [
+      ['@babel/preset-env', { loose: true, modules: false }],
+      '@babel/preset-react',
+    ],
     plugins: [
       'flow-react-proptypes',
-      'transform-flow-strip-types',
-      ['transform-class-properties', { loose: true }],
+      '@babel/plugin-transform-flow-strip-types',
+      ['@babel/plugin-proposal-class-properties', { loose: true }],
       [
         'styled-components',
         {
           displayName: false,
         },
       ],
-      'external-helpers',
     ].filter(Boolean),
     ignore: ['*.test.js'],
   }),

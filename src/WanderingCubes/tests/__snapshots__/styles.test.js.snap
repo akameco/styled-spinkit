@@ -10,7 +10,7 @@ exports[`render 1`] = `
   position: relative;
 }
 
-.c0 > .sc-bdVaJa {
+.c0 > .c1 {
   background-color: #333;
   -webkit-animation-name: gIQwnI;
   animation-name: gIQwnI;

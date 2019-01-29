@@ -1,11 +1,9 @@
 // @flow
 import * as React from 'react'
-import { shallow } from 'enzyme'
-import toJson from 'enzyme-to-json'
-import 'jest-styled-components'
+import renderer from 'react-test-renderer';
 import StyledRotaingPlain from '../styles'
 
 test('render without props', () => {
-  const wrapper = shallow(<StyledRotaingPlain size={40} color={'#333'} />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  const tree = renderer.create(<StyledRotaingPlain size={40} color={'#333'} />).toJSON()
+  expect(tree).toMatchSnapshot()
 })

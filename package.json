@@ -7,7 +7,7 @@
   "author": {
     "name": "akameco",
     "email": "akameco.t@gmail.com",
-    "url": "akameco.github.io"
+    "url": "https://akameco.github.io"
   },
   "main": "lib/index.js",
   "jsnext:main": "dist/styled-spinkit.es.js",
@@ -26,7 +26,7 @@
     "add-contributors": "all-contributors add",
     "prebuild:lib": "rimraf lib/*",
     "build": "npm run build:lib && npm run build:dist && npm run build:flow",
-    "build:lib": "babel src/ -d lib/ --ignore '*.test.js'",
+    "build:lib": "babel src/ -d lib/ --ignore '**/*.test.js'",
     "prebuild:dist": "rimraf dist/*",
     "build:dist": "rollup -c",
     "build:flow": "flow-copy-source -v -i '{**/tests/*.js,**/*.test.js}' src lib",
@@ -38,8 +38,7 @@
     "lint:js": "eslint --fix src",
     "lint": "npm run lint:css && npm run lint:js",
     "test": "jest",
-    "prepublish": "npm run precommit && npm run build",
-    "precommit": "lint-staged"
+    "prepublish": "npm run build"
   },
   "lint-staged": {
     ".{js,json,md}": [
@@ -54,68 +53,58 @@
     "src"
   ],
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "round-to": "^3.0.0",
-    "styled-components": "^2.4.0"
+    "prop-types": "^15.6.2",
+    "round-to": "^3.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
     "@kadira/storybook-deployer": "^1.2.0",
-    "@storybook/addon-actions": "^3.4.6",
-    "@storybook/addon-info": "^3.4.6",
-    "@storybook/addon-knobs": "^3.4.6",
-    "@storybook/addon-storyshots": "^3.4.6",
-    "@storybook/react": "^3.4.6",
-    "all-contributors-cli": "^4.11.2",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.0.1",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-flow-react-proptypes": "^24.0.1",
-    "babel-plugin-styled-components": "^1.5.1",
-    "babel-preset-zero": "^0.2.0",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.4",
-    "eslint": "^4.19.1",
-    "eslint-config-precure": "^2.7.0",
-    "flow-bin": "^0.73.0",
-    "flow-copy-source": "^2.0.0",
-    "husky": "^0.14.3",
-    "jest": "^23.1.0",
-    "jest-styled-components": "5.0.1",
-    "lint-staged": "^7.1.3",
-    "prettier": "^1.13.4",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "rimraf": "^2.6.2",
-    "rollup": "^0.59.4",
-    "rollup-plugin-babel": "^3.0.4",
-    "rollup-plugin-commonjs": "^9.1.3",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-info": "^4.1.11",
+    "@storybook/addon-knobs": "^4.1.11",
+    "@storybook/addon-storyshots": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "all-contributors-cli": "^5.11.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-flow-react-proptypes": "^24.1.2",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-preset-zero": "^0.7.0",
+    "eslint": "^5.12.1",
+    "eslint-config-precure": "^3.5.0",
+    "flow-bin": "^0.91.0",
+    "flow-copy-source": "^2.0.2",
+    "husky": "^1.3.1",
+    "jest": "^24.0.0",
+    "jest-styled-components": "6.3.1",
+    "lint-staged": "^8.1.1",
+    "prettier": "^1.16.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-flow": "^1.1.1",
-    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
     "storyshots": "^3.2.2",
-    "stylelint": "^9.2.1",
+    "styled-components": "^4.1.3",
+    "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-processor-styled-components": "^1.3.1"
+    "stylelint-processor-styled-components": "^1.5.2"
   },
   "peerDependencies": {
-    "react": ">=15.0.0",
-    "styled-components": ">=2.0.0"
+    "styled-components": ">=2.0.0",
+    "react": ">=15.0.0"
   },
-  "jest": {
-    "setupFiles": [
-      "<rootDir>/jestSetup.js"
-    ],
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>[/\\\\](build|node_modules)[/\\\\]"
-    ],
-    "testEnvironment": "node",
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-    ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

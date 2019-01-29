@@ -71,7 +71,7 @@ exports[`render without props 1`] = `
   transform: rotateZ(45deg);
 }
 
-.c0 > .sc-bdVaJa::before {
+.c0 > .c1::before {
   background-color: #333;
 }
 

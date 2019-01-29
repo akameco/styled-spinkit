@@ -1,30 +1,91 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render without props 1`] = `
-<styled.div
+.c2 {
+  width: 7px;
+  height: 100%;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+
+.c3 {
+  width: 7px;
+  height: 100%;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.c4 {
+  width: 7px;
+  height: 100%;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.c5 {
+  width: 7px;
+  height: 100%;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.c6 {
+  width: 7px;
+  height: 100%;
+  margin: 0 3px 0 0;
+  display: inline-block;
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+.c0 {
+  margin: 40px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.c0 > .c1 {
+  background-color: #333;
+  -webkit-animation-name: kCGIFG;
+  animation-name: kCGIFG;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+<div
+  className="c0"
   color="#333"
   size={40}
   speed={1.2}
 >
-  <styled.div
-    delay={-1.2}
-    key="0"
+  <div
+    className="c1 c2"
   />
-  <styled.div
-    delay={-1.1}
-    key="1"
+  <div
+    className="c1 c3"
   />
-  <styled.div
-    delay={-1}
-    key="2"
+  <div
+    className="c1 c4"
   />
-  <styled.div
-    delay={-0.9}
-    key="3"
+  <div
+    className="c1 c5"
   />
-  <styled.div
-    delay={-0.8}
-    key="4"
+  <div
+    className="c1 c6"
   />
-</styled.div>
+</div>
 `;
