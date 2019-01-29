@@ -14,3 +14,6 @@ cache:
 
 notifications:
   email: false
+
+branches:
+  only: master
