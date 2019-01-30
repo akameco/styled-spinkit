@@ -1,6 +1,7 @@
 {
   "extends": ["precure/oss", "precure/react"],
   "rules": {
-    "import/no-unassigned-import": 0
+    "import/no-unassigned-import": 0,
+    "unicorn/prefer-spread": 0
   }
 }
