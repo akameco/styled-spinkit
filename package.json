@@ -70,7 +70,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.0.0",
     "babel-loader": "8.0.5",
-    "babel-plugin-flow-react-proptypes": "24.1.2",
+    "babel-plugin-flow-react-proptypes": "25.0.0",
     "babel-plugin-styled-components": "1.10.0",
     "babel-preset-zero": "0.7.0",
     "eslint": "5.12.1",
