@@ -4076,13 +4076,13 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-precure@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-3.5.0.tgz#1ba5748f80403643ca5f52e4577f4ae0ea1556bf"
-  integrity sha512-snJV+YDo/jMqvnIjEt7VC4EXENiQgwULxaxmQH/N4FBful9phqCY02zffilEDVvCMzelupTr1f/NiGfyPzHYnw==
+eslint-config-precure@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-3.6.0.tgz#a7dfaf21168d84c4640e53b6f92fe674c80fdf28"
+  integrity sha512-mZ8OKCyGBKnZR+TrIssyMIyfMxNZwUR3YkmLeVmdCRMkOCRLa4DSGpOg6uPoe3qj0AtglEe8wZLeo1Q/W4VIoA==
   dependencies:
     babel-eslint "^10.0.1"
-    eslint-config-prettier "^3.6.0"
+    eslint-config-prettier "^4.0.0"
     eslint-plugin-flowtype "^3.2.1"
     eslint-plugin-import "^2.14.0"
     eslint-plugin-jest "^22.1.3"
@@ -4090,10 +4090,10 @@ eslint-config-precure@3.5.0:
     eslint-plugin-react "^7.12.4"
     eslint-plugin-unicorn "^7.0.0"
 
-eslint-config-prettier@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-3.6.0.tgz#8ca3ffac4bd6eeef623a0651f9d754900e3ec217"
-  integrity sha512-ixJ4U3uTLXwJts4rmSVW/lMXjlGwCijhBJHk8iVqKKSifeI0qgFEfWl8L63isfc8Od7EiBALF6BX3jKLluf/jQ==
+eslint-config-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.0.0.tgz#16cedeea0a56e74de60dcbbe3be0ab2c645405b9"
+  integrity sha512-kWuiJxzV5NwOwZcpyozTzDT5KJhBw292bbYro9Is7BWnbNMg15Gmpluc1CTetiCatF8DRkNvgPAOaSyg+bYr3g==
   dependencies:
     get-stdin "^6.0.0"
 
