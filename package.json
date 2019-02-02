@@ -74,7 +74,7 @@
     "babel-plugin-styled-components": "1.10.0",
     "babel-preset-zero": "0.7.0",
     "eslint": "5.13.0",
-    "eslint-config-precure": "3.5.0",
+    "eslint-config-precure": "3.6.0",
     "flow-bin": "0.92.0",
     "flow-copy-source": "2.0.2",
     "husky": "1.3.1",
