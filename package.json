@@ -9,27 +9,22 @@
     "email": "akameco.t@gmail.com",
     "url": "https://akameco.github.io"
   },
-  "main": "lib/index.js",
-  "jsnext:main": "dist/styled-spinkit.es.js",
-  "module": "dist/styled-spinkit.es.js",
+  "main": "dist/index.js",
+  "jsnext:main": "dist/styled-spinkit.esm.js",
+  "module": "dist/styled-spinkit.esm.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "react",
     "styled-components",
     "components",
-    "flow",
-    "flowtype",
     "Spinner",
     "Loading",
     "components"
   ],
   "scripts": {
     "add-contributors": "all-contributors add",
-    "prebuild:lib": "rimraf lib/*",
-    "build": "npm run build:lib && npm run build:dist && npm run build:flow",
-    "build:lib": "babel src/ -d lib/ --ignore '**/*.test.js'",
-    "prebuild:dist": "rimraf dist/*",
-    "build:dist": "rollup -c",
-    "build:flow": "flow-copy-source -v -i '{**/tests/*.js,**/*.test.js}' src lib",
+    "build": "tsc && rollup -c",
+    "prebuild": "rimraf dist/*",
     "fmt": "prettier --write '**/*.{js,json,md}'",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
@@ -47,10 +42,7 @@
     ]
   },
   "files": [
-    "flow-typed",
-    "lib",
-    "dist",
-    "src"
+    "dist"
   ],
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -94,9 +86,8 @@
     "rimraf": "2.6.3",
     "rollup": "1.1.2",
     "rollup-plugin-babel": "4.3.2",
-    "rollup-plugin-commonjs": "9.2.0",
-    "rollup-plugin-flow": "1.1.1",
     "rollup-plugin-node-resolve": "4.0.0",
+    "rollup-plugin-terser": "^4.0.4",
     "storyshots": "3.2.2",
     "styled-components": "4.1.3",
     "stylelint": "9.10.1",
