@@ -38,12 +38,12 @@ exports[`render without props 1`] = `
 }
 
 .c0 > .c1 {
-  background-color: #eee;
+  background-color: #333;
 }
 
 <div
   className="c0"
-  color="#eee"
+  color="#333"
   size={40}
 >
   <div
