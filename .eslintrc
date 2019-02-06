@@ -1,7 +1,8 @@
 {
-  "extends": ["precure/oss", "precure/react"],
+  "extends": ["precure", "precure/react", "precure/jest", "precure/typescript"],
   "rules": {
-    "import/no-unassigned-import": 0,
-    "unicorn/prefer-spread": 0
+    "unicorn/prefer-spread": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "react/prop-types": 0
   }
 }

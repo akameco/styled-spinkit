@@ -1,7 +1,15 @@
 module.exports = {
-  collectCoverageFrom: ['src/**/*.js'],
-  setupFilesAfterEnv: ['<rootDir>/setupTest.js'],
-  testPathIgnorePatterns: ['<rootDir>[/\\\\](build|node_modules)[/\\\\]'],
-  testEnvironment: 'node',
-  transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
+  // collectCoverageFrom: ['src/**/*.tsx?'],
+  setupFilesAfterEnv: ['<rootDir>/setupTest.ts'],
+  testPathIgnorePatterns: [
+    '<rootDir>[/\\\\](dist|compiled|node_modules)[/\\\\]',
+  ],
+  testEnvironment: 'jsdom',
+  // transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(ts|tsx)$'],
+  preset: 'ts-jest',
+  globals: {
+    'ts-jest': {
+      diagnostics: false,
+    },
+  },
 }

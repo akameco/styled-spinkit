@@ -1,42 +1,43 @@
-// @flow weak
-import nodeResolve from 'rollup-plugin-node-resolve'
-import commonjs from 'rollup-plugin-commonjs'
-import babel from 'rollup-plugin-babel'
-import flow from 'rollup-plugin-flow'
+import resolve from 'rollup-plugin-node-resolve'
+import { terser } from 'rollup-plugin-terser'
+import pkg from './package.json'
 
-const plugins = [
-  flow(),
-  nodeResolve(),
-  babel({
-    babelrc: false,
-    presets: [
-      ['@babel/preset-env', { loose: true, modules: false }],
-      '@babel/preset-react',
-    ],
-    plugins: [
-      'flow-react-proptypes',
-      '@babel/plugin-transform-flow-strip-types',
-      ['@babel/plugin-proposal-class-properties', { loose: true }],
-      [
-        'styled-components',
-        {
-          displayName: false,
-        },
-      ],
-    ].filter(Boolean),
-    ignore: ['*.test.js'],
-  }),
-  commonjs({ ignoreGlobal: true }),
-]
+const input = './compiled/index.js'
 
-export default {
-  plugins,
-  external: ['react', 'styled-components'],
-  input: 'src/index.js',
+const external = id => !id.startsWith('.') && !id.startsWith('/')
+
+const buildCjs = () => ({
+  input,
+  external,
   output: {
-    file: 'dist/styled-spinkit.es.js',
-    format: 'es',
-    exports: 'named',
-    globals: { react: 'React' },
+    file: pkg.main,
+    format: 'cjs',
+    sourcemap: true,
   },
-}
+  plugins: [
+    resolve(),
+    terser({
+      sourcemap: true,
+      output: { comments: false },
+      warnings: true,
+      ecma: 5,
+      // Compress and/or mangle variables in top level scope.
+      // @see https://github.com/terser-js/terser
+      toplevel: true,
+    }),
+  ],
+})
+
+export default [
+  buildCjs(),
+  {
+    input,
+    external,
+    output: {
+      file: pkg.module,
+      format: 'esm',
+      sourcemap: true,
+    },
+    plugins: [resolve()],
+  },
+]
