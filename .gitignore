@@ -19,3 +19,4 @@ yarn-error.log*
 /storybook-static
 /lib
 /dist
+/compiled

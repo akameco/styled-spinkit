@@ -1,0 +1,12 @@
+{
+  "extends": "@akameco/tsconfig",
+  "compilerOptions": {
+    "outDir": "compiled",
+    "module": "esnext",
+    "declaration": true,
+    "declarationDir": "dist",
+    "lib": ["dom", "esnext"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
