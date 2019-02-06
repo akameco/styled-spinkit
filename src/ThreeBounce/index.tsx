@@ -1,28 +1,18 @@
 import React from 'react'
+import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledThreeBounce } from './styles'
 
-interface Props {
-  size: number
-  color: string
-}
-
-class ThreeBounce extends React.PureComponent<Props> {
-  static defaultProps = {
-    color: '#333',
-    size: 40,
-  }
-
-  static displayName = `__styled-spinkit__ThreeBounce`
-
-  render() {
-    return (
-      <StyledThreeBounce {...this.props}>
-        <Child delay={-0.32} />
-        <Child delay={-0.16} />
-        <Child delay={0} />
-      </StyledThreeBounce>
-    )
-  }
+export const ThreeBounce: React.FC<SpinkitProps> = ({
+  size = DEFAULT_SIZE,
+  color = DEFAULT_COLOR,
+}) => {
+  return (
+    <StyledThreeBounce size={size} color={color}>
+      <Child delay={-0.32} />
+      <Child delay={-0.16} />
+      <Child delay={0} />
+    </StyledThreeBounce>
+  )
 }
 
 export default ThreeBounce

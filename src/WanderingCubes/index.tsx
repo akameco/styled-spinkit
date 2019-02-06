@@ -1,31 +1,21 @@
 import React from 'react'
 import roundTo from 'round-to'
+import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledWanderingCubes } from './styles'
 
-interface Props {
-  size: number
-  color: string
-}
+const WanderingCubes: React.FC<SpinkitProps> = ({
+  size = DEFAULT_SIZE,
+  color = DEFAULT_COLOR,
+}) => {
+  const speed = 1.8
+  const cubeSize = roundTo(size / 4, 2)
 
-class WanderingCubes extends React.PureComponent<Props> {
-  static defaultProps = {
-    color: '#333',
-    size: 40,
-  }
-
-  static displayName = `__styled-spinkit__WanderingCubes`
-
-  render() {
-    const speed = 1.8
-    const cubeSize = roundTo(this.props.size / 4, 2)
-
-    return (
-      <StyledWanderingCubes speed={speed} {...this.props}>
-        <Child delay={speed} size={cubeSize} />
-        <Child delay={speed / 2} size={cubeSize} />
-      </StyledWanderingCubes>
-    )
-  }
+  return (
+    <StyledWanderingCubes speed={speed} size={size} color={color}>
+      <Child delay={speed} size={cubeSize} />
+      <Child delay={speed / 2} size={cubeSize} />
+    </StyledWanderingCubes>
+  )
 }
 
 export default WanderingCubes

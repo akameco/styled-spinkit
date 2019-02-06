@@ -1,22 +1,12 @@
 import React from 'react'
+import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import StyledPulse from './styles'
 
-interface Props {
-  size: number
-  color: string
-}
-
-class Pulse extends React.PureComponent<Props> {
-  static defaultProps = {
-    size: 40,
-    color: '#333',
-  }
-
-  static displayName = `__styled-spinkit__Pulse`
-
-  render() {
-    return <StyledPulse {...this.props} />
-  }
+const Pulse: React.FC<SpinkitProps> = ({
+  size = DEFAULT_SIZE,
+  color = DEFAULT_COLOR,
+}) => {
+  return <StyledPulse size={size} color={color} />
 }
 
 export default Pulse

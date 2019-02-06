@@ -1,27 +1,17 @@
 import React from 'react'
+import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledDoubleBounce } from './styles'
 
-interface Props {
-  size: number
-  color: string
-}
-
-class DoubleBounce extends React.PureComponent<Props> {
-  static defaultProps = {
-    color: '#333',
-    size: 40,
-  }
-
-  static displayName = `__styled-spinkit__DoubleBounce`
-
-  render() {
-    return (
-      <StyledDoubleBounce {...this.props}>
-        <Child />
-        <Child isDelay />
-      </StyledDoubleBounce>
-    )
-  }
+const DoubleBounce: React.FC<SpinkitProps> = ({
+  size = DEFAULT_SIZE,
+  color = DEFAULT_COLOR,
+}) => {
+  return (
+    <StyledDoubleBounce size={size} color={color}>
+      <Child />
+      <Child isDelay />
+    </StyledDoubleBounce>
+  )
 }
 
 export default DoubleBounce
