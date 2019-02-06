@@ -25,10 +25,7 @@
     "add-contributors": "all-contributors add",
     "build": "tsc && rollup -c",
     "prebuild": "rimraf dist/*",
-    "fmt": "prettier --write '**/*.{js,json,md}'",
-    "storybook": "start-storybook -p 9009",
-    "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages",
+    "fmt": "prettier --write '**/*.{ts,tsx,js,json,md}'",
     "lint:css": "stylelint \"./src/**/*.js\" || true",
     "lint:js": "eslint --fix 'src/**/*.{ts,tsx}'",
     "lint": "npm run lint:css && npm run lint:js",
@@ -36,7 +33,7 @@
     "prepublish": "npm run build"
   },
   "lint-staged": {
-    ".{js,json,md}": [
+    ".{ts,tsx,js,json,md}": [
       "prettier --write",
       "git add"
     ]
@@ -45,23 +42,14 @@
     "dist"
   ],
   "dependencies": {
-    "prop-types": "^15.6.2",
     "round-to": "^3.0.0"
   },
   "devDependencies": {
     "@akameco/tsconfig": "^0.1.1",
-    "@kadira/storybook-deployer": "1.2.0",
-    "@storybook/addon-actions": "4.1.11",
-    "@storybook/addon-info": "4.1.11",
-    "@storybook/addon-knobs": "4.1.11",
-    "@storybook/addon-storyshots": "4.1.11",
-    "@storybook/react": "4.1.11",
     "@types/jest": "^24.0.0",
-    "@types/react": "16.7",
+    "@types/react": "16.8.2",
     "@types/react-test-renderer": "^16.8.0",
     "@types/round-to": "^3.0.0",
-    "@types/storybook__addon-info": "^3.4.3",
-    "@types/storybook__react": "^4.0.0",
     "@types/styled-components": "^4.1.8",
     "all-contributors-cli": "5.11.0",
     "eslint": "5.13.0",
@@ -76,7 +64,6 @@
     "react-test-renderer": "16.8.0",
     "rimraf": "2.6.3",
     "rollup": "1.1.2",
-    "rollup-plugin-babel": "4.3.2",
     "rollup-plugin-node-resolve": "4.0.0",
     "rollup-plugin-terser": "^4.0.4",
     "storyshots": "3.2.2",

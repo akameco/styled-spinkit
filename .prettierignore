@@ -4,3 +4,4 @@ dist
 storybook-static
 package.json
 .github
+compiled
