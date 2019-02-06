@@ -5,7 +5,8 @@
     "module": "esnext",
     "declaration": true,
     "declarationDir": "dist",
-    "lib": ["dom", "esnext"]
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
