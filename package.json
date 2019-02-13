@@ -12,6 +12,7 @@
   "main": "dist/index.js",
   "jsnext:main": "dist/styled-spinkit.esm.js",
   "module": "dist/styled-spinkit.esm.js",
+  "sideEffects": false,
   "typings": "dist/index.d.ts",
   "keywords": [
     "react",
