@@ -5,9 +5,10 @@ import { Child, StyledThreeBounce } from './styles'
 const ThreeBounce: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   return (
-    <StyledThreeBounce size={size} color={color}>
+    <StyledThreeBounce className={className} size={size} color={color}>
       <Child delay={-0.32} />
       <Child delay={-0.16} />
       <Child delay={0} />

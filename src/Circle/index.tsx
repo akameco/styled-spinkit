@@ -7,6 +7,7 @@ import { Child, StyledCircle } from './styles'
 const Circle: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   const count = 12
   const speed = 1.2
@@ -18,7 +19,7 @@ const Circle: React.FC<SpinkitProps> = ({
   })
 
   return (
-    <StyledCircle size={size} color={color}>
+    <StyledCircle className={className} size={size} color={color}>
       {circles}
     </StyledCircle>
   )

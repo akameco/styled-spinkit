@@ -7,8 +7,9 @@ const speed = 1.2
 const RotaingPlain: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
-  return <StyledRotaingPlain size={size} color={color} speed={speed} />
+  return <StyledRotaingPlain className={className} size={size} color={color} speed={speed} />
 }
 
 export default RotaingPlain

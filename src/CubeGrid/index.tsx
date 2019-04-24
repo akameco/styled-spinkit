@@ -6,6 +6,7 @@ import { Child, StyledCubeGrid } from './styles'
 const CubeGrid: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   const range = 0.4
   const cubes = [0.5, 0.75, 1, 0.25, 0.5, 0.75, 0, 0.25, 0.5]
@@ -13,7 +14,7 @@ const CubeGrid: React.FC<SpinkitProps> = ({
     .map((v, k) => <Child key={k} delay={v} />)
 
   return (
-    <StyledCubeGrid size={size} color={color}>
+    <StyledCubeGrid className={className} size={size} color={color}>
       {cubes}
     </StyledCubeGrid>
   )

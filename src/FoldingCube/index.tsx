@@ -6,6 +6,7 @@ import { Child, StyledFoldingCube } from './styles'
 const FoldingCube: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   const duration = 2.4
   const range = duration / 2
@@ -21,7 +22,7 @@ const FoldingCube: React.FC<SpinkitProps> = ({
   ))
 
   return (
-    <StyledFoldingCube size={size} color={color}>
+    <StyledFoldingCube className={className} size={size} color={color}>
       {cubes}
     </StyledFoldingCube>
   )

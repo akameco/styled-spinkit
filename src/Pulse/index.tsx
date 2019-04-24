@@ -5,8 +5,9 @@ import StyledPulse from './styles'
 const Pulse: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
-  return <StyledPulse size={size} color={color} />
+  return <StyledPulse className={className} size={size} color={color} />
 }
 
 export default Pulse

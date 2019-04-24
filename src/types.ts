@@ -7,6 +7,7 @@ export interface SpinkitProps {
    * @default '#333'
    */
   color?: string
+  className?: string
 }
 
 export const DEFAULT_SIZE = 40
