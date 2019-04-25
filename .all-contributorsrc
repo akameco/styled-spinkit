@@ -5,7 +5,7 @@
     "readme.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
   "contributors": [
     {
       "login": "akameco",
@@ -28,6 +28,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "Annihil",
+      "name": "Bap ☺",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16704309?v=4",
+      "profile": "http://stackoverflow.com/users/6174694/annihil",
+      "contributions": [
+        "code"
+      ]
     }
-  ]
+  ],
+  "repoType": "github"
 }

@@ -4,7 +4,7 @@
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![MIT License](https://img.shields.io/npm/l/nps.svg?style=flat-square)](./license)
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 > Simple animation loading components with [styled-components](https://github.com/styled-components/styled-components)
 
@@ -55,7 +55,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://akameco.github.io"><img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;" alt="akameco"/><br /><sub><b>akameco</b></sub></a><br /><a href="https://github.com/akameco/styled-spinkit/commits?author=akameco" title="Code">💻</a> <a href="https://github.com/akameco/styled-spinkit/commits?author=akameco" title="Documentation">📖</a> <a href="https://github.com/akameco/styled-spinkit/commits?author=akameco" title="Tests">⚠️</a> <a href="#infra-akameco" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td><td align="center"><a href="https://github.com/jrusx"><img src="https://avatars1.githubusercontent.com/u/19670625?v=4" width="100px;" alt="jrusx"/><br /><sub><b>jrusx</b></sub></a><br /><a href="https://github.com/akameco/styled-spinkit/commits?author=jrusx" title="Code">💻</a> <a href="https://github.com/akameco/styled-spinkit/issues?q=author%3Ajrusx" title="Bug reports">🐛</a></td></tr></table>
+<table><tr><td align="center"><a href="http://akameco.github.io"><img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;" alt="akameco"/><br /><sub><b>akameco</b></sub></a><br /><a href="https://github.com/akameco/styled-spinkit/commits?author=akameco" title="Code">💻</a> <a href="https://github.com/akameco/styled-spinkit/commits?author=akameco" title="Documentation">📖</a> <a href="https://github.com/akameco/styled-spinkit/commits?author=akameco" title="Tests">⚠️</a> <a href="#infra-akameco" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td><td align="center"><a href="https://github.com/jrusx"><img src="https://avatars1.githubusercontent.com/u/19670625?v=4" width="100px;" alt="jrusx"/><br /><sub><b>jrusx</b></sub></a><br /><a href="https://github.com/akameco/styled-spinkit/commits?author=jrusx" title="Code">💻</a> <a href="https://github.com/akameco/styled-spinkit/issues?q=author%3Ajrusx" title="Bug reports">🐛</a></td><td align="center"><a href="http://stackoverflow.com/users/6174694/annihil"><img src="https://avatars3.githubusercontent.com/u/16704309?v=4" width="100px;" alt="Bap ☺"/><br /><sub><b>Bap ☺</b></sub></a><br /><a href="https://github.com/akameco/styled-spinkit/commits?author=Annihil" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
