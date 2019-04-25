@@ -2,6 +2,7 @@
   "extends": ["precure", "precure/react", "precure/jest", "precure/typescript"],
   "rules": {
     "unicorn/prefer-spread": 0,
+    "unicorn/prevent-abbreviations": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "react/prop-types": 0
   }

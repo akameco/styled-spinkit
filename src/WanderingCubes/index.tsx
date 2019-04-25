@@ -12,7 +12,12 @@ const WanderingCubes: React.FC<SpinkitProps> = ({
   const cubeSize = roundTo(size / 4, 2)
 
   return (
-    <StyledWanderingCubes speed={speed} className={className} size={size} color={color}>
+    <StyledWanderingCubes
+      speed={speed}
+      className={className}
+      size={size}
+      color={color}
+    >
       <Child delay={speed} size={cubeSize} />
       <Child delay={speed / 2} size={cubeSize} />
     </StyledWanderingCubes>
