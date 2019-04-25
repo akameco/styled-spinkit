@@ -5,9 +5,10 @@ import { StyledChangeDots, Child } from './styles'
 const ChangeDots: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   return (
-    <StyledChangeDots size={size} color={color}>
+    <StyledChangeDots className={className} size={size} color={color}>
       <Child />
       <Child second />
     </StyledChangeDots>

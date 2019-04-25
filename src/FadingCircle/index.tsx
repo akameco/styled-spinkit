@@ -7,6 +7,7 @@ import { Child, StyledForldingCircle } from './styles'
 const ForldingCircle: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   const count = 12
   const range = 1.2
@@ -19,7 +20,7 @@ const ForldingCircle: React.FC<SpinkitProps> = ({
   ))
 
   return (
-    <StyledForldingCircle size={size} color={color}>
+    <StyledForldingCircle className={className} size={size} color={color}>
       {circles}
     </StyledForldingCircle>
   )

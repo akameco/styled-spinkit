@@ -11,6 +11,7 @@ const delayRange = 0.4
 const Wave: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
   color = DEFAULT_COLOR,
+  className,
 }) => {
   const rects = getRange(rectCount).map(v => (
     <Rect
@@ -20,7 +21,7 @@ const Wave: React.FC<SpinkitProps> = ({
   ))
 
   return (
-    <StyledWave speed={speed} size={size} color={color}>
+    <StyledWave speed={speed} className={className} size={size} color={color}>
       {rects}
     </StyledWave>
   )
