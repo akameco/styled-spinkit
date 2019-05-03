@@ -12,6 +12,8 @@
 
 See [React Storybook Demo](https://akameco.github.io/styled-spinkit/?knob-color=magenta&knob-number=60&selectedKind=CubeGrid&selectedStory=render%20magenta%2060&full=0&down=1&left=1&panelRight=1&downPanel=storybook-addon-background%2Fbackground-panel)
 
+See [Bit components collection](https://bit.dev/akameco/styled-spinkit)
+
 Inspired by [SpinKit](https://github.com/tobiasahlin/SpinKit).
 
 ## Install
