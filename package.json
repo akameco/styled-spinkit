@@ -24,8 +24,9 @@
   ],
   "scripts": {
     "add-contributors": "all-contributors add",
-    "build": "tsc && rollup -c",
     "prebuild": "rimraf dist/*",
+    "build": "tsc && rollup -c",
+    "postbuild": "rimraf compiled/*",
     "fmt": "prettier --write '**/*.{ts,tsx,js,json,md}'",
     "lint:css": "stylelint './src/**/*.{ts,tsx}'",
     "lint:js": "eslint --fix 'src/**/*.{ts,tsx}'",

@@ -1,10 +1,11 @@
+import path from 'path'
 import resolve from 'rollup-plugin-node-resolve'
 import { terser } from 'rollup-plugin-terser'
 import pkg from './package.json'
 
 const input = './compiled/index.js'
 
-const external = id => !id.startsWith('.') && !id.startsWith('/')
+const external = id => !id.startsWith('.') && !path.isAbsolute(id)
 
 const buildCjs = () => ({
   input,
