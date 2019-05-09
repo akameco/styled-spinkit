@@ -32,6 +32,7 @@
     "lint:js": "eslint --fix 'src/**/*.{ts,tsx}'",
     "lint": "npm run lint:css && npm run lint:js",
     "test": "jest",
+    "dev": "parcel example/index.html",
     "prepublish": "npm run build"
   },
   "lint-staged": {
@@ -60,6 +61,7 @@
     "jest": "24.8.0",
     "jest-styled-components": "6.3.1",
     "lint-staged": "8.1.6",
+    "parcel-bundler": "^1.12.3",
     "prettier": "1.17.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
