@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components'
-import roundTo from 'round-to'
 import {
   propSize,
   propBgColor,
@@ -7,6 +6,7 @@ import {
   SizeProps,
   DelayProps,
   BgColorProps,
+  roundTo
 } from '../util'
 
 const createAnim = (cubeDistance: number = 42) => keyframes`

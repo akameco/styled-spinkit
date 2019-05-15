@@ -1,5 +1,7 @@
 import { css } from 'styled-components'
 
+export const roundTo = (n: number, precision: number) => (Math.round((n * Math.pow(10, precision))) / Math.pow(10, precision))
+
 export const size = (width: string, height: string = width) => css`
   width: ${width};
   height: ${height};

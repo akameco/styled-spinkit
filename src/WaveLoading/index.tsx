@@ -1,6 +1,5 @@
 import React from 'react'
-import roundTo from 'round-to'
-import { getRange } from '../util'
+import { getRange, roundTo } from '../util'
 import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Rect, StyledWave } from './styles'
 

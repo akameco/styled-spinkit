@@ -1,7 +1,7 @@
 import React from 'react'
-import roundTo from 'round-to'
 import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledCubeGrid } from './styles'
+import { roundTo } from '../util'
 
 const CubeGrid: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
