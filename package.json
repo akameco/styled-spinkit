@@ -44,9 +44,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "round-to": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@akameco/tsconfig": "^0.2.0",
     "@types/jest": "^24.0.12",

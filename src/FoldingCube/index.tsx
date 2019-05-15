@@ -1,7 +1,7 @@
 import React from 'react'
-import roundTo from 'round-to'
 import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledFoldingCube } from './styles'
+import { roundTo } from '../util'
 
 const FoldingCube: React.FC<SpinkitProps> = ({
   size = DEFAULT_SIZE,
