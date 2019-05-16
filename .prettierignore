@@ -5,3 +5,4 @@ storybook-static
 package.json
 .github
 compiled
+.cache

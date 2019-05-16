@@ -6,7 +6,7 @@ import {
   SizeProps,
   DelayProps,
   BgColorProps,
-  roundTo
+  roundTo,
 } from '../util'
 
 const createAnim = (cubeDistance: number = 42) => keyframes`
