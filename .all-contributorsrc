@@ -37,7 +37,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mrpandat",
+      "name": "KagXaef",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22916835?v=4",
+      "profile": "https://github.com/mrpandat",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "repoType": "github"
+  "repoType": "github",
+  "commitConvention": "none"
 }
