@@ -3,7 +3,7 @@ import { css } from 'styled-components'
 // This is an improvement of Math.round.
 // It gives you the ability to round after a decimal.
 export const roundTo = (n: number, precision: number): number =>
-  Math.round(n * Math.pow(10, precision)) / Math.pow(10, precision)
+  Math.round(n * 10 ** precision) / 10 ** precision
 
 export const size = (width: string, height: string = width) => css`
   width: ${width};
