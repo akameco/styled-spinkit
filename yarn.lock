@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@akameco/tsconfig@^0.2.0":
+"@akameco/tsconfig@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@akameco/tsconfig/-/tsconfig-0.2.0.tgz#759eb6b0c13cb25bb53d16e4f5750269e3e9eb85"
   integrity sha512-hjHwvcxERbbIed1gnuOjbwUes8g4qpi+7Ly2P2xcFh/KZuL2fv/RHIQxp2xnOxyL1Z/CUdzFxDrrpq7ag2SUUQ==
@@ -1047,7 +1047,7 @@
   resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
   integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
 
-"@types/jest@^24.0.13":
+"@types/jest@24.0.13":
   version "24.0.13"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.13.tgz#10f50b64cb05fb02411fbba49e9042a3a11da3f9"
   integrity sha512-3m6RPnO35r7Dg+uMLj1+xfZaOgIHHHut61djNjzwExXN4/Pm9has9C6I1KMYSfz7mahDhWUOVg4HW/nZdv5Pww==
@@ -1087,7 +1087,7 @@
     "@types/prop-types" "*"
     "@types/react" "*"
 
-"@types/react-test-renderer@^16.8.1":
+"@types/react-test-renderer@16.8.1":
   version "16.8.1"
   resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.8.1.tgz#96f3ce45a3a41c94eca532a99103dd3042c9d055"
   integrity sha512-8gU69ELfJGxzVWVYj4MTtuHxz9nO+d175XeQ1XrXXxesUBsB4KK6OCfzVhEX6leZWWBDVtMJXp/rUjhClzL7gw==
@@ -1109,7 +1109,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/round-to@^3.0.0":
+"@types/round-to@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/round-to/-/round-to-3.0.0.tgz#0f9ecb4d751e7bd72ae2adfb6456acc50f25b2ba"
   integrity sha512-X/iZGwSRqkcLpPa/ueP0kZRVSgTHLxAzCTX7DJX8vQlxn2Kz/wCevEIm+Klem7EG8NKJquWcE0MvVFTqbokTvw==
@@ -1119,7 +1119,7 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/styled-components@^4.1.16":
+"@types/styled-components@4.1.16":
   version "4.1.16"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.1.16.tgz#63fb33d02bc41d70a3af88711849b6df5d2a58e0"
   integrity sha512-h4VtEopz0AS2oAbZlVSG1gnEhvx0LXcmYn9jD/y8Z/OHimsQygYFeDPbUDH/rJOaQu3T+PgAgRtOTG2IZyUTVg==
@@ -6613,7 +6613,7 @@ parallel-transform@^1.1.0:
     inherits "^2.0.3"
     readable-stream "^2.1.5"
 
-parcel-bundler@^1.12.3:
+parcel-bundler@1.12.3:
   version "1.12.3"
   resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.12.3.tgz#2bbf70bfa2d06097f071653285040bd125684d09"
   integrity sha512-8bq6lj0hhQeGxD9f9xEkFMXQ3d8TIlf2+isKxoi9bciB0KVEILRGllaPkUgp++5t0anToBh9+tG6ZyInXOC1/A==
@@ -8019,7 +8019,7 @@ rollup-plugin-node-resolve@5.0.1:
     resolve "^1.11.0"
     rollup-pluginutils "^2.8.0"
 
-rollup-plugin-terser@^5.0.0:
+rollup-plugin-terser@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-5.0.0.tgz#ac50fdb703b580447a7e6b1692aeed515a6be8cf"
   integrity sha512-W+jJ4opYnlmNyVW0vtRufs+EGf68BIJ7bnOazgz8mgz8pA9lUyrEifAhPs5y9M16wFeAyBGaRjKip4dnFBtXaw==
@@ -9117,7 +9117,7 @@ trough@^1.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.4.tgz#3b52b1f13924f460c3fbfd0df69b587dbcbc762e"
   integrity sha512-tdzBRDGWcI1OpPVmChbdSKhvSVurznZ8X36AYURAcl+0o2ldlCY2XPzyXNNxwJwwyIU+rIglTCG4kxtNKBQH7Q==
 
-ts-jest@^24.0.2:
+ts-jest@24.0.2:
   version "24.0.2"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-24.0.2.tgz#8dde6cece97c31c03e80e474c749753ffd27194d"
   integrity sha512-h6ZCZiA1EQgjczxq+uGLXQlNgeg02WWJBbeT8j6nyIBRQdglqbvzDoHahTEIiS6Eor6x8mK6PfZ7brQ9Q6tzHw==
@@ -9183,7 +9183,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.5.1:
+typescript@3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
   integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
