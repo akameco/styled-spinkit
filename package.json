@@ -49,7 +49,7 @@
     "@akameco/tsconfig": "0.2.0",
     "@types/jest": "24.0.15",
     "@types/react": "16.8.20",
-    "@types/react-test-renderer": "16.8.1",
+    "@types/react-test-renderer": "16.8.2",
     "@types/round-to": "3.0.0",
     "@types/styled-components": "4.1.16",
     "all-contributors-cli": "6.6.1",
