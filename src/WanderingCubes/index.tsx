@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { roundTo } from '../util'
 import { Child, StyledWanderingCubes } from './styles'

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledThreeBounce } from './styles'
 

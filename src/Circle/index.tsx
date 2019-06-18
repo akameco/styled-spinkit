@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { getRange, roundTo } from '../util'
 import { SpinkitProps, DEFAULT_SIZE, DEFAULT_COLOR } from '../types'
 import { Child, StyledCircle } from './styles'
