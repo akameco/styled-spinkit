@@ -51,7 +51,7 @@
     "@types/react": "16.8.23",
     "@types/react-test-renderer": "16.8.2",
     "@types/round-to": "3.0.0",
-    "@types/styled-components": "4.1.16",
+    "@types/styled-components": "4.1.18",
     "all-contributors-cli": "6.7.0",
     "eslint": "6.0.1",
     "eslint-config-precure": "4.17.0",
