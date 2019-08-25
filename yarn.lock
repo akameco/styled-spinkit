@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@akameco/tsconfig@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@akameco/tsconfig/-/tsconfig-0.2.0.tgz#759eb6b0c13cb25bb53d16e4f5750269e3e9eb85"
-  integrity sha512-hjHwvcxERbbIed1gnuOjbwUes8g4qpi+7Ly2P2xcFh/KZuL2fv/RHIQxp2xnOxyL1Z/CUdzFxDrrpq7ag2SUUQ==
+"@akameco/tsconfig@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@akameco/tsconfig/-/tsconfig-0.3.0.tgz#1ddcda03bbde652e376ad300f3057560f1d5dcd5"
+  integrity sha512-TjhWxLlfBMYxHTUZiGPvAuU53ksGPBKv4fjDBw0qdJxIV67G7N2jq9xuXPUDJVy2Qldr7Iuh/ngYGIdvN7grMg==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
