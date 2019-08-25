@@ -2687,9 +2687,9 @@ css-selector-tokenizer@^0.7.0:
     regexpu-core "^1.0.0"
 
 css-to-react-native@^2.2.2:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.3.1.tgz#cf0f61e0514846e2d4dc188b0886e29d8bef64a2"
-  integrity sha512-yO+oEx1Lf+hDKasqQRVrAvzMCz825Huh1VMlEEDlRWyAhFb/FWb6I0KpEF1PkyKQ7NEdcx9d5M2ZEWgJAsgPvQ==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.3.2.tgz#e75e2f8f7aa385b4c3611c52b074b70a002f2e7d"
+  integrity sha512-VOFaeZA053BqvvvqIA8c9n0+9vFppVBAHCp6JgFTtTMU3Mzi+XnelJ9XC9ul3BqFzZyQ5N+H0SnwsWT2Ebchxw==
   dependencies:
     camelize "^1.0.0"
     css-color-keywords "^1.0.0"
