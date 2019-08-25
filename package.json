@@ -54,7 +54,7 @@
     "@types/styled-components": "4.1.18",
     "all-contributors-cli": "6.8.1",
     "eslint": "6.2.2",
-    "eslint-config-precure": "4.18.1",
+    "eslint-config-precure": "5.0.2",
     "husky": "3.0.4",
     "jest": "24.9.0",
     "jest-styled-components": "6.3.3",
