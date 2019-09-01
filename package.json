@@ -53,7 +53,7 @@
     "@types/round-to": "3.0.0",
     "@types/styled-components": "4.1.18",
     "all-contributors-cli": "6.8.1",
-    "eslint": "6.2.2",
+    "eslint": "6.3.0",
     "eslint-config-precure": "5.0.2",
     "husky": "3.0.5",
     "jest": "24.9.0",
@@ -75,7 +75,7 @@
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.8.0",
     "ts-jest": "24.0.2",
-    "typescript": "3.5.3"
+    "typescript": "3.6.2"
   },
   "peerDependencies": {
     "react": ">=15.0.0",
