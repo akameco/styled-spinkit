@@ -59,7 +59,7 @@
     "jest": "24.9.0",
     "jest-styled-components": "6.3.3",
     "lint-staged": "9.4.1",
-    "parcel-bundler": "1.12.3",
+    "parcel-bundler": "1.12.4",
     "prettier": "1.18.2",
     "react": "16.10.2",
     "react-dom": "16.10.2",
