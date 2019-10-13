@@ -55,10 +55,10 @@
     "all-contributors-cli": "6.9.1",
     "eslint": "6.5.1",
     "eslint-config-precure": "5.1.0",
-    "husky": "3.0.8",
+    "husky": "3.0.9",
     "jest": "24.9.0",
     "jest-styled-components": "6.3.3",
-    "lint-staged": "9.4.1",
+    "lint-staged": "9.4.2",
     "parcel-bundler": "1.12.4",
     "prettier": "1.18.2",
     "react": "16.10.2",
@@ -70,12 +70,12 @@
     "rollup-plugin-terser": "5.1.2",
     "storyshots": "3.2.2",
     "styled-components": "4.4.0",
-    "stylelint": "11.0.0",
+    "stylelint": "11.1.1",
     "stylelint-config-standard": "19.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.8.0",
     "ts-jest": "24.1.0",
-    "typescript": "3.6.3"
+    "typescript": "3.6.4"
   },
   "peerDependencies": {
     "react": ">=15.0.0",
