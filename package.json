@@ -52,7 +52,7 @@
     "@types/react-test-renderer": "16.9.2",
     "@types/round-to": "3.0.0",
     "@types/styled-components": "5.0.0",
-    "all-contributors-cli": "6.13.0",
+    "all-contributors-cli": "6.14.0",
     "eslint": "6.8.0",
     "eslint-config-precure": "5.2.0",
     "husky": "3.1.0",
