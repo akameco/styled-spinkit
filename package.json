@@ -57,7 +57,7 @@
     "eslint-config-precure": "5.3.1",
     "husky": "4.2.3",
     "jest": "25.1.0",
-    "jest-styled-components": "6.3.4",
+    "jest-styled-components": "7.0.0",
     "lint-staged": "10.0.8",
     "parcel-bundler": "1.12.4",
     "prettier": "1.19.1",
