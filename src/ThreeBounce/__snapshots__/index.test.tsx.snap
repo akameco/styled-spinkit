@@ -4,22 +4,22 @@ exports[`render without props 1`] = `
 .c2 {
   border-radius: 100%;
   display: inline-block;
-  -webkit-animation: ctIBbK 1.4s ease-in-out -0.32s infinite both;
-  animation: ctIBbK 1.4s ease-in-out -0.32s infinite both;
+  -webkit-animation: fQdAWJ 1.4s ease-in-out -0.32s infinite both;
+  animation: fQdAWJ 1.4s ease-in-out -0.32s infinite both;
 }
 
 .c3 {
   border-radius: 100%;
   display: inline-block;
-  -webkit-animation: ctIBbK 1.4s ease-in-out -0.16s infinite both;
-  animation: ctIBbK 1.4s ease-in-out -0.16s infinite both;
+  -webkit-animation: fQdAWJ 1.4s ease-in-out -0.16s infinite both;
+  animation: fQdAWJ 1.4s ease-in-out -0.16s infinite both;
 }
 
 .c4 {
   border-radius: 100%;
   display: inline-block;
-  -webkit-animation: ctIBbK 1.4s ease-in-out 0s infinite both;
-  animation: ctIBbK 1.4s ease-in-out 0s infinite both;
+  -webkit-animation: fQdAWJ 1.4s ease-in-out 0s infinite both;
+  animation: fQdAWJ 1.4s ease-in-out 0s infinite both;
 }
 
 .c0 {

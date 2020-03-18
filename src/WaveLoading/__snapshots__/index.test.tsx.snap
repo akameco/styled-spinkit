@@ -56,8 +56,8 @@ exports[`render without props 1`] = `
 
 .c0 > .c1 {
   background-color: #333;
-  -webkit-animation-name: kCGIFG;
-  animation-name: kCGIFG;
+  -webkit-animation-name: dMPjAB;
+  animation-name: dMPjAB;
   -webkit-animation-duration: 1.2s;
   animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-in-out;

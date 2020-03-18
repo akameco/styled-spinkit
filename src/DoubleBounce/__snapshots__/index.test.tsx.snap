@@ -9,8 +9,8 @@ exports[`render without props 1`] = `
   opacity: 0.6;
   top: 0;
   left: 0;
-  -webkit-animation: eeCuoj 2s infinite ease-in-out;
-  animation: eeCuoj 2s infinite ease-in-out;
+  -webkit-animation: hyvohD 2s infinite ease-in-out;
+  animation: hyvohD 2s infinite ease-in-out;
 }
 
 .c3 {
@@ -21,8 +21,8 @@ exports[`render without props 1`] = `
   opacity: 0.6;
   top: 0;
   left: 0;
-  -webkit-animation: eeCuoj 2s infinite ease-in-out;
-  animation: eeCuoj 2s infinite ease-in-out;
+  -webkit-animation: hyvohD 2s infinite ease-in-out;
+  animation: hyvohD 2s infinite ease-in-out;
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }

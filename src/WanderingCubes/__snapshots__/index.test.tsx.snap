@@ -44,8 +44,8 @@ exports[`render without props 1`] = `
 
 .c0 > .c1 {
   background-color: #333;
-  -webkit-animation-name: dXBxGG;
-  animation-name: dXBxGG;
+  -webkit-animation-name: ksymO;
+  animation-name: ksymO;
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
 }

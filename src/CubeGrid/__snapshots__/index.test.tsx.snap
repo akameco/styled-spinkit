@@ -5,40 +5,40 @@ exports[`render without props 1`] = `
   width: 33.33%;
   height: 33.33%;
   float: left;
-  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.2s;
-  animation: cQEajE 1.3s infinite ease-in-out 0.2s;
+  -webkit-animation: gKRhTX 1.3s infinite ease-in-out 0.2s;
+  animation: gKRhTX 1.3s infinite ease-in-out 0.2s;
 }
 
 .c3 {
   width: 33.33%;
   height: 33.33%;
   float: left;
-  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.3s;
-  animation: cQEajE 1.3s infinite ease-in-out 0.3s;
+  -webkit-animation: gKRhTX 1.3s infinite ease-in-out 0.3s;
+  animation: gKRhTX 1.3s infinite ease-in-out 0.3s;
 }
 
 .c4 {
   width: 33.33%;
   height: 33.33%;
   float: left;
-  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.4s;
-  animation: cQEajE 1.3s infinite ease-in-out 0.4s;
+  -webkit-animation: gKRhTX 1.3s infinite ease-in-out 0.4s;
+  animation: gKRhTX 1.3s infinite ease-in-out 0.4s;
 }
 
 .c5 {
   width: 33.33%;
   height: 33.33%;
   float: left;
-  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0.1s;
-  animation: cQEajE 1.3s infinite ease-in-out 0.1s;
+  -webkit-animation: gKRhTX 1.3s infinite ease-in-out 0.1s;
+  animation: gKRhTX 1.3s infinite ease-in-out 0.1s;
 }
 
 .c6 {
   width: 33.33%;
   height: 33.33%;
   float: left;
-  -webkit-animation: cQEajE 1.3s infinite ease-in-out 0s;
-  animation: cQEajE 1.3s infinite ease-in-out 0s;
+  -webkit-animation: gKRhTX 1.3s infinite ease-in-out 0s;
+  animation: gKRhTX 1.3s infinite ease-in-out 0s;
 }
 
 .c0 {

@@ -6,8 +6,8 @@ exports[`render without props 1`] = `
   height: 40px;
   background-color: #333;
   margin: 40px auto;
-  -webkit-animation: kxzfpx 1.2s infinite ease-in-out;
-  animation: kxzfpx 1.2s infinite ease-in-out;
+  -webkit-animation: iyNvKY 1.2s infinite ease-in-out;
+  animation: iyNvKY 1.2s infinite ease-in-out;
 }
 
 <div
