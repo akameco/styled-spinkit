@@ -65,7 +65,7 @@
     "react-dom": "16.13.0",
     "react-test-renderer": "16.13.0",
     "rimraf": "3.0.2",
-    "rollup": "1.32.1",
+    "rollup": "2.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-terser": "5.3.0",
     "storyshots": "3.2.2",
