@@ -27,7 +27,7 @@ export const Child = styled.div<{ isDelay?: boolean }>`
   top: 0;
   left: 0;
   animation: ${debounce} 2s infinite ease-in-out;
-  ${p => p.isDelay && animationDelay(-1)};
+  ${(p) => p.isDelay && animationDelay(-1)};
 `
 
 export const StyledDoubleBounce = styled.div<SizeProps & BgColorProps>`

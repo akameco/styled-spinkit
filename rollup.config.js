@@ -5,7 +5,7 @@ import pkg from './package.json'
 
 const input = './compiled/index.js'
 
-const external = id => !id.startsWith('.') && !path.isAbsolute(id)
+const external = (id) => !id.startsWith('.') && !path.isAbsolute(id)
 
 const buildCjs = () => ({
   input,

@@ -9,7 +9,7 @@ import {
   roundTo,
 } from '../util'
 
-const createAnim = (cubeDistance: number = 42) => keyframes`
+const createAnim = (cubeDistance = 42) => keyframes`
   0% {
     transform: rotate(0deg);
   }
@@ -45,7 +45,7 @@ export const Child = styled.div<SizeProps & DelayProps>`
 export const StyledWanderingCubes = styled.div<
   { speed: number } & SizeProps & BgColorProps
 >`
-  margin: ${p => roundTo(p.size * 0.8, 1)}px auto;
+  margin: ${(p) => roundTo(p.size * 0.8, 1)}px auto;
   ${propSize};
   text-align: center;
   font-size: 10px;
@@ -53,7 +53,7 @@ export const StyledWanderingCubes = styled.div<
 
   > ${Child} {
     ${propBgColor};
-    animation-name: ${p => createAnim(roundTo(p.size * 0.8, 1))};
-    animation-duration: ${p => p.speed}s;
+    animation-name: ${(p) => createAnim(roundTo(p.size * 0.8, 1))};
+    animation-duration: ${(p) => p.speed}s;
   }
 `

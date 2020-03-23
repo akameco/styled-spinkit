@@ -26,14 +26,14 @@ export const Child = styled.div<{ rotate: number } & DelayProps>`
   position: absolute;
   left: 0;
   top: 0;
-  transform: rotate(${p => p.rotate}deg);
+  transform: rotate(${(p) => p.rotate}deg);
   &::before {
     content: '';
     display: block;
     margin: 0 auto;
     ${size('15%')};
     border-radius: 100%;
-    animation: ${opacity} 1.2s infinite ease-in-out both -${p => p.delay}s;
+    animation: ${opacity} 1.2s infinite ease-in-out both -${(p) => p.delay}s;
   }
 `
 

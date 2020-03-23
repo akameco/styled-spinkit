@@ -36,15 +36,15 @@ export const Child = styled.div<
   float: left;
   ${size('50%')};
   position: relative;
-  transform: scale(1.1) rotateZ(${p => p.scale}deg);
+  transform: scale(1.1) rotateZ(${(p) => p.scale}deg);
   &::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     ${size('100%')};
-    animation: ${locate} ${p => p.duration}s infinite linear both
-      ${p => p.delay}s;
+    animation: ${locate} ${(p) => p.duration}s infinite linear both
+      ${(p) => p.delay}s;
     transform-origin: 100% 100%;
   }
 `

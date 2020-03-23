@@ -25,7 +25,7 @@ const scale = keyframes`
 export const Child = styled.div<DelayProps>`
   ${size('33.33%')};
   float: left;
-  animation: ${scale} 1.3s infinite ease-in-out ${p => p.delay}s;
+  animation: ${scale} 1.3s infinite ease-in-out ${(p) => p.delay}s;
 `
 
 export const StyledCubeGrid = styled.div<SizeProps & BgColorProps>`

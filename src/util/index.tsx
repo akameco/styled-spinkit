@@ -12,14 +12,14 @@ export const size = (width: string, height: string = width) => css`
 
 export const sizePx = (n: number) => size(`${n}px`)
 
-export interface SizeProps {
+export type SizeProps = {
   size: number
 }
 
 // eslint-disable-next-line no-shadow
 export const propSize = ({ size }: SizeProps) => sizePx(size)
 
-export interface BgColorProps {
+export type BgColorProps = {
   color: string
 }
 
@@ -27,7 +27,7 @@ export const propBgColor = ({ color }: BgColorProps) => css`
   background-color: ${color};
 `
 
-export interface MarginProps {
+export type MarginProps = {
   size?: number
 }
 
@@ -41,7 +41,7 @@ export const animationDelay = (n: number) =>
     animation-delay: ${n}s;
   `
 
-export interface DelayProps {
+export type DelayProps = {
   delay: number
 }
 

@@ -12,7 +12,7 @@ const Wave: React.FC<SpinkitProps> = ({
   color = DEFAULT_COLOR,
   className,
 }) => {
-  const rects = getRange(rectCount).map(v => (
+  const rects = getRange(rectCount).map((v) => (
     <Rect
       delay={roundTo(-speed + (delayRange / (rectCount - 1)) * v, 1)}
       key={v}

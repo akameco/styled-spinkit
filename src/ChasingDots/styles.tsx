@@ -35,7 +35,7 @@ export const Child = styled.div<{ second?: boolean }>`
   top: 0;
   border-radius: 100%;
   animation: ${bounce} ${duration}s infinite ease-in-out;
-  ${p =>
+  ${(p) =>
     p.second &&
     css`
       top: auto;

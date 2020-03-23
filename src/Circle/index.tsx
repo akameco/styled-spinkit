@@ -11,7 +11,7 @@ const Circle: React.FC<SpinkitProps> = ({
   const count = 12
   const speed = 1.2
 
-  const circles = getRange(count).map(k => {
+  const circles = getRange(count).map((k) => {
     const transform = roundTo((360 / count) * (k + 1), 1)
     const delay = roundTo(-speed + (speed / count) * k, 1)
     return <Child key={delay} delay={delay} transform={transform} />

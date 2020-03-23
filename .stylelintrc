@@ -10,6 +10,7 @@
     "selector-type-case": null,
     "value-list-max-empty-lines": null,
     "declaration-colon-newline-after": null,
-    "rule-empty-line-before": null
+    "rule-empty-line-before": null,
+    "value-keyword-case": null
   }
 }

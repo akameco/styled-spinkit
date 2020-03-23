@@ -1,4 +1,4 @@
-export interface SpinkitProps {
+export type SpinkitProps = {
   /**
    * @default 40
    */

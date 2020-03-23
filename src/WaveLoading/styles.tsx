@@ -12,7 +12,7 @@ const anim = keyframes`
   }
 `
 
-interface StyledWaveProps {
+type StyledWaveProps = {
   size: number
   speed: number
   color: string
@@ -27,14 +27,14 @@ export const Rect = styled.div<{ delay: number }>`
 
 export const StyledWave = styled.div<StyledWaveProps>`
   ${propMargin};
-  ${p => size(`${p.size * 1.25}px`, `${p.size}px`)};
+  ${(p) => size(`${p.size * 1.25}px`, `${p.size}px`)};
   text-align: center;
   font-size: 10px;
 
   > ${Rect} {
     ${propBgColor};
     animation-name: ${anim};
-    animation-duration: ${p => p.speed}s;
+    animation-duration: ${(p) => p.speed}s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }

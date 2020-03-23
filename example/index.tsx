@@ -86,7 +86,7 @@ function App() {
           ThreeBounce,
           WanderingCubes,
           WaveLoading,
-        ].map(component => (
+        ].map((component) => (
           <ShowSpinkit component={component} key={component.name} />
         ))}
       </div>

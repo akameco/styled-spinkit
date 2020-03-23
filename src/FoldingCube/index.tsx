@@ -12,7 +12,7 @@ const FoldingCube: React.FC<SpinkitProps> = ({
   const range = duration / 2
   const cubeCount = 4
 
-  const cubes = [0, 1, 3, 2].map(v => (
+  const cubes = [0, 1, 3, 2].map((v) => (
     <Child
       scale={90 * v}
       key={v}

@@ -10,7 +10,7 @@ const ForldingCircle: React.FC<SpinkitProps> = ({
 }) => {
   const count = 12
   const range = 1.2
-  const circles = getRange(count).map(v => (
+  const circles = getRange(count).map((v) => (
     <Child
       key={v}
       rotate={roundTo((360 / count) * v, 1)}

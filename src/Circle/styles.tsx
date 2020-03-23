@@ -27,7 +27,7 @@ export const Child = styled.div<ChildProps>`
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(${p => p.transform}deg);
+  transform: rotate(${(p) => p.transform}deg);
 
   &::before {
     content: '';
@@ -35,7 +35,7 @@ export const Child = styled.div<ChildProps>`
     margin: 0 auto;
     ${size('15%')};
     border-radius: 100%;
-    animation: ${scale} 1.2s ease-in-out ${p => p.delay}s infinite both;
+    animation: ${scale} 1.2s ease-in-out ${(p) => p.delay}s infinite both;
   }
 `
 

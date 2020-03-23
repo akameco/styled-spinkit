@@ -19,7 +19,7 @@ const spin = keyframes`
   }
 `
 
-interface Props {
+type Props = {
   speed: number
 }
 
@@ -27,7 +27,7 @@ const StyledRotaingPlain = styled.div<Props & SizeProps & BgColorProps>`
   ${propSize};
   ${propBgColor};
   ${propMargin};
-  animation: ${spin} ${p => p.speed}s infinite ease-in-out;
+  animation: ${spin} ${(p) => p.speed}s infinite ease-in-out;
 `
 
 export default StyledRotaingPlain
